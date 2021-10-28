@@ -8,11 +8,9 @@
 <ul>
   <li>
 <%= link_to recipe.title, recipe_path(recipe) %>
+<% if @current_user.present? %>
+<%= link_to 'Remove recipe', remove_recipe_path(@myfood.id, recipe.id), :method => 'delete' %>
+ <% end %>
 </li>
 </ul>
 <% end %>
-
-
-<% if @current_user.present? %>
-<%= link_to ('Remove Recipe'), myfoods_path(@myfood.id), :method => 'delete', :class => "btn btn-outline-danger" %> </h5>
- <% end %>

@@ -5,6 +5,9 @@ class RecipesController < ApplicationController
     @recipe = Recipe.new
   end
 
+  def search
+    @recipes = Recipe.where("title LIKE ?", "%" + params[:q] + "%")
+  end
 
 
   def create
@@ -52,7 +55,7 @@ class RecipesController < ApplicationController
 
 
 
- def delete
+ def destroy
   @recipe = Recipe.find params[:id]
   redirect_to recipes_path
  end

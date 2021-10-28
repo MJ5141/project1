@@ -20,6 +20,18 @@ class MyfoodsController < ApplicationController
     @myfood = Myfood.find params[:id]
   end
 
+  def remove_recipe
+    myfood = Myfood.find params[:myfood_id]
+    recipe = Recipe.find params[:recipe_id]
+    myfood.recipes.destroy(recipe)
+    redirect_to myfood
+  end 
+
+  def destroy
+   @myfood = Myfood.find params[:id]
+   @myfood.destroy
+   redirect_to myfoods_path
+  end
 
   private
   def myfood_params

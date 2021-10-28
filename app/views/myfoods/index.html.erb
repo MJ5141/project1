@@ -1,7 +1,7 @@
 <h1>Myfood Lists</h1>
 
 
-<% @myfoods.each do |myfood| %>
+<% @current_user.myfoods.each do |myfood| %>
 <ul>
   <li>
 <%= link_to myfood.title, myfood_path(myfood) %>
