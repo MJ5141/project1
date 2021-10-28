@@ -1,0 +1,18 @@
+<h1> <%= @myfood.title %></h1>
+
+<% if flash[:alert].present? %>
+ <%= flash[:alert]%>
+<% end %>
+
+<% @myfood.recipes.each do |recipe| %>
+<ul>
+  <li>
+<%= link_to recipe.title, recipe_path(recipe) %>
+</li>
+</ul>
+<% end %>
+
+
+<% if @current_user.present? %>
+<%= link_to ('Remove Recipe'), myfoods_path(@myfood.id), :method => 'delete', :class => "btn btn-outline-danger" %> </h5>
+ <% end %>

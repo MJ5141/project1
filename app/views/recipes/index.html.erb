@@ -1,9 +1,21 @@
-<h1> My_Food_Lab Recipes</h1>
+<h1> My Food Lab </h1>
 
-<% @recipes.each do |recipe| %>
+<div class="container">
+<div class="row">
 
-<ul>
-  <li>Name: <%= link_to recipe.title, recipe %> </li>
-</ul>
-<%= image_tag recipe.image, :class => 'thumb' if recipe.image.present? %>
- <% end %>
+
+ <% @recipes.each do |recipe| %>
+ <div class="col">
+  <div class="card" style="width: 18rem;">
+     <%= image_tag recipe.image, :class => 'card-img-top' if recipe.image.present? %>
+     <div class="card-body">
+       <h5 class="card-title"><%= recipe.title %></h5>
+       <%= link_to 'View Recipe', recipe_path(recipe.id), :class => 'btn-btn-primary' %>
+     </div>
+   </div>
+   </div>
+<% end %>
+
+
+</div>
+</div>

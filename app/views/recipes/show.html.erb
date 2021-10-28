@@ -1,13 +1,39 @@
 <h1> <%= @recipe.title %></h1>
 
-<%= image_tag @recipe.image, :class => 'thumb' if @recipe.image.present? %>
+<%= image_tag @recipe.image, :class => 'feature' if @recipe.image.present? %>
 
-<ul>
-  <li>Preparation Time ⏱ : <%= @recipe.prep_time %> mins </li>
-  <li>Cooking Time ⏱ : <%= @recipe.cook_time %> mins </li>
-  <li>Course Type 🍽 : <%= @recipe.course %>  </li>
-  <li>Serves 👨‍👩‍👦 : <%= @recipe.serves %> persons </li>
-  <li>Main Recipe 🍳 : <%= @recipe.main_recipe %> </li>
-</ul>
-<p>Youtube Video 🎥 :</p>
-<%= @recipe.video.html_safe %> 
+<div class="info">
+  <h4>Preparation Time ⏱ : <%= @recipe.prep_time %> mins</h4>
+  <h4>Cooking Time ⏱ : <%= @recipe.cook_time %> mins</h4>
+  <h4>Course Type 🍽 : <%= @recipe.course %></h4>
+  <h4>Serves 👨‍👩‍👦 : <%= @recipe.serves %> persons</h4>
+  </div>
+
+<h3>Main Recipe 🍳 </h3>
+  <div class="recipe">
+   <%= @recipe.main_recipe %>
+  </div>
+
+<div class="video">
+<h3>Youtube Video 🎥 </h3>
+<%= @recipe.video.html_safe %>
+</div>
+
+
+<div class="addtolist">
+<% if @current_user.present? %>
+<%= form_for @recipe do |f| %>
+<%= f.label :Myfood_lists %>
+  <%= f.select :myfood_ids, @current_user.myfoods.pluck(:title, :id), :include_blank => true %>
+
+  <%= f.submit "Add to list", :class=> "btn btn-info" %>
+  <% end %>
+  <% end %>
+  </div>
+
+  <% if @current_user.present? %>
+  <% if @current_user.admin? %>
+<h5> <%= link_to ('Edit Recipe'), edit_recipe_path(@recipe.id), :class=> "btn btn-success" %>
+ <%= link_to ('Delete Recipe'), recipes_path(@recipe.id), :method => 'delete', :class => "btn btn-outline-danger" %> </h5>
+  <% end %>
+  <% end %>

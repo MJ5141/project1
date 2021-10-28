@@ -1,13 +1,82 @@
 body {
-  background-color: #ccd;
+   background-color: aliceblue;
+
 }
 
-.container {
+.cont {
   max-width: 960px;
   margin: 0 auto;
 }
 
 .thumb {
   height: 12em;
-  width: 12em;
+
+}
+
+.feature {
+  max-height: 25em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1, h5 {
+  text-align: center;
+  margin: 25px;
+}
+
+h3 {
+  text-align: center;
+}
+.one {
+  align-items: center;
+border-radius: 50%;
+}
+
+.btn-btn-primary {
+  margin: 0 0 0 75px
+}
+
+.col {
+  width: 30%;
+}
+
+.card {
+  margin: 5px 5px 5px 5px;
+}
+
+.card-img-top {
+  height: 21em;
+  padding: 10px 10px 10px 10px;
+
+}
+
+.info {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+
+}
+
+.list {
+  text-align: center;
+}
+
+.recipe {
+  text-align: justify;
+  margin-top: 25px;
+  margin-bottom: 50px;
+
+}
+
+.addtolist {
+  align-content: center;
+  text-align: center;
+}
+
+.video {
+  text-align: center;
+  align-content: center;
+    margin-top: 25px;
+  margin-bottom: 50px;
 }
