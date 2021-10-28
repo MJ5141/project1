@@ -2,7 +2,7 @@
 
 # My Food Lab!
 
-I'm glad to announce that I have completed my first ruby project which is a web application called "MY FOOD LAB". The web application gives information related various Indian food along with user login facility to store recipes to fav lists.
+I'm glad to announce that I have completed my first ruby project which is a web application called "MY FOOD LAB" https://mj5141.herokuapp.com. The web application gives information related various Indian food along with user login facility to store recipes to fav lists.
 India's top chef Mr.Sanjyot Keer has a Youtube channel but doesn't have a website. That's the reason I decided this topic for the project. I know this web application is not perfect, I just started small so I could convert it to actual website for chef SK.
 
 

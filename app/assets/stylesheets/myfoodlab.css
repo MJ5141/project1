@@ -64,14 +64,12 @@ border-radius: 50%;
 
 }
 
-
-
-
 .info {
-  margin-top: 115px;
-  margin-bottom: 50px;
-  text-align: justify;
-
+    text-align: justify;
+    width: 400px;
+    padding: 25px;
+    border: 10px solid gray;
+    margin: 15px 15px 15px 15px;
 }
 
 .list {
@@ -80,8 +78,11 @@ border-radius: 50%;
 
 .recipe {
   text-align: justify;
-
   margin-bottom: 50px;
+  width: 930px;
+  padding: 25px;
+  border: 10px solid gray;
+  margin: 15px 15px 15px 15px;
 
 }
 

@@ -1,45 +1,45 @@
-<h1>New Recipe</h1>
+<h1>New Recipe 🍳</h1>
 
 <%= form_for @recipe do |f| %>
 <ul>
  <div class="form-group">
-<%= f.label :Title%>
+<%= f.label :Title%> 📝
 <%= f.text_field :title, :class => 'form-control'%>
 </div>
 
 <div class="form-group">
-<%= f.label :image%>
+<%= f.label :image%> 📸
 <%= f.text_field :image, :class => 'form-control'%>
 </div>
 
 <div class="form-group">
-<%= f.label :Course%>
+<%= f.label :Course%> 🍽
 <%= f.text_field :course, :class => 'form-control'%>
 </div>
 
 <div class="form-group">
-<%= f.label :serves%>
+<%= f.label :serves%> 👨‍👩‍👦
 <%= f.number_field :serves, :class => 'form-control'%>
 </div>
 
 <div class="form-group">
-<%= f.label :prep_time%>
+<%= f.label :prep_time%> ⏱
 <%= f.text_field :prep_time, :class => 'form-control'%>
 </div>
 
 <div class="form-group">
-<%= f.label :cook_time%>
+<%= f.label :cook_time%> ⏱
 <%= f.text_field :cook_time, :class => 'form-control'%>
 </div>
 
 <div class="form-group">
-<%= f.label :main_recipe%>
+<%= f.label :main_recipe%> 🍳
 <%= f.text_field :main_recipe, :class => 'form-control'%>
 </div>
 
 <div class="form-group">
-<%= f.label :video%>
-<%= f.text_field :video, :class => 'form-control'%> 
+<%= f.label :video%> 🎥
+<%= f.text_field :video, :class => 'form-control'%>
 </div>
 
 <%= f.submit "Create Recipe", :class => "btn btn-outline-danger" %>

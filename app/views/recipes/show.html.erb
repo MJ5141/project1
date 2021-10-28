@@ -6,10 +6,10 @@
 <%= image_tag @recipe.image, :class => 'feature' if @recipe.image.present? %>
 
 <div class="info">
-  <h4>Preparation Time ⏱ : <%= @recipe.prep_time %> mins</h4>
-  <h4>Cooking Time ⏱ : <%= @recipe.cook_time %> mins</h4>
-  <h4>Course Type 🍽 : <%= @recipe.course %></h4>
-  <h4>Serves 👨‍👩‍👦 : <%= @recipe.serves %> persons</h4>
+  <h5>Prep Time ⏱ : <%= @recipe.prep_time %> mins</h5>
+  <h5>Cook Time ⏱ : <%= @recipe.cook_time %> mins</h5>
+  <h5>Course Type 🍽 : <%= @recipe.course %></h5>
+  <h5>Serves 👨‍👩‍👦 : <%= @recipe.serves %> persons</h5>
   </div>
 
 </div>

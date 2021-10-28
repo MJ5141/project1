@@ -42620,3 +42620,1595 @@ Completed 200 OK in 55ms (Views: 51.7ms | ActiveRecord: 1.1ms)
   ↳ db/seeds.rb:92
   [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
   ↳ db/seeds.rb:92
+Started GET "/recipes" for ::1 at 2021-10-29 09:47:19 +1100
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/mayureshjagtap/.rvm/gems/ruby-2.7.4/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (1.4ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/views/recipes/index.html.erb:7
+  Rendered recipes/index.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 748ms (Views: 734.2ms | ActiveRecord: 8.1ms)
+
+
+Started GET "/recipes/119" for ::1 at 2021-10-29 09:47:24 +1100
+Processing by RecipesController#show as HTML
+  Parameters: {"id"=>"119"}
+  [1m[36mRecipe Load (0.8ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 119], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:27
+  Rendering recipes/show.html.erb within layouts/application
+  Rendered recipes/show.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 81ms (Views: 70.4ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/recipes/119" for ::1 at 2021-10-29 09:50:05 +1100
+Processing by RecipesController#show as HTML
+  Parameters: {"id"=>"119"}
+  [1m[36mRecipe Load (1.0ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 119], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:27
+  Rendering recipes/show.html.erb within layouts/application
+  Rendered recipes/show.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 404ms (Views: 398.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/recipes/119" for ::1 at 2021-10-29 09:56:06 +1100
+Processing by RecipesController#show as HTML
+  Parameters: {"id"=>"119"}
+  [1m[36mRecipe Load (0.5ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 119], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:27
+  Rendering recipes/show.html.erb within layouts/application
+  Rendered recipes/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 443ms (Views: 439.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/recipes" for ::1 at 2021-10-29 09:56:10 +1100
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (1.6ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/views/recipes/index.html.erb:7
+  Rendered recipes/index.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 48ms (Views: 44.9ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/recipes/120" for ::1 at 2021-10-29 09:56:13 +1100
+Processing by RecipesController#show as HTML
+  Parameters: {"id"=>"120"}
+  [1m[36mRecipe Load (0.9ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 120], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:27
+  Rendering recipes/show.html.erb within layouts/application
+  Rendered recipes/show.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 54ms (Views: 49.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/recipes/120" for ::1 at 2021-10-29 09:57:02 +1100
+Processing by RecipesController#show as HTML
+  Parameters: {"id"=>"120"}
+  [1m[36mRecipe Load (1.0ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 120], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:27
+  Rendering recipes/show.html.erb within layouts/application
+  Rendered recipes/show.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 397ms (Views: 390.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/recipes/120" for ::1 at 2021-10-29 09:58:37 +1100
+Processing by RecipesController#show as HTML
+  Parameters: {"id"=>"120"}
+  [1m[36mRecipe Load (1.1ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 120], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:27
+  Rendering recipes/show.html.erb within layouts/application
+  Rendered recipes/show.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 55ms (Views: 48.9ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/recipes/120" for ::1 at 2021-10-29 09:58:40 +1100
+Processing by RecipesController#show as HTML
+  Parameters: {"id"=>"120"}
+  [1m[36mRecipe Load (1.7ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 120], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:27
+  Rendering recipes/show.html.erb within layouts/application
+  Rendered recipes/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 58ms (Views: 53.6ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/recipes/120" for ::1 at 2021-10-29 09:58:57 +1100
+Processing by RecipesController#show as HTML
+  Parameters: {"id"=>"120"}
+  [1m[36mRecipe Load (0.8ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 120], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:27
+  Rendering recipes/show.html.erb within layouts/application
+  Rendered recipes/show.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 415ms (Views: 411.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/recipes/120" for ::1 at 2021-10-29 10:01:05 +1100
+Processing by RecipesController#show as HTML
+  Parameters: {"id"=>"120"}
+  [1m[36mRecipe Load (0.8ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 120], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:27
+  Rendering recipes/show.html.erb within layouts/application
+  Rendered recipes/show.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 65ms (Views: 59.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/recipes/120" for ::1 at 2021-10-29 10:01:25 +1100
+Processing by RecipesController#show as HTML
+  Parameters: {"id"=>"120"}
+  [1m[36mRecipe Load (0.7ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 120], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:27
+  Rendering recipes/show.html.erb within layouts/application
+  Rendered recipes/show.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 410ms (Views: 405.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/recipes/120" for ::1 at 2021-10-29 10:02:49 +1100
+Processing by RecipesController#show as HTML
+  Parameters: {"id"=>"120"}
+  [1m[36mRecipe Load (0.7ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 120], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:27
+  Rendering recipes/show.html.erb within layouts/application
+  Rendered recipes/show.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 412ms (Views: 406.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/recipes/120" for ::1 at 2021-10-29 10:05:02 +1100
+Processing by RecipesController#show as HTML
+  Parameters: {"id"=>"120"}
+  [1m[36mRecipe Load (1.1ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 120], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:27
+  Rendering recipes/show.html.erb within layouts/application
+  Rendered recipes/show.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 454ms (Views: 446.7ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/recipes" for ::1 at 2021-10-29 10:05:07 +1100
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (1.0ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/views/recipes/index.html.erb:7
+  Rendered recipes/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 50ms (Views: 45.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/recipes" for ::1 at 2021-10-29 10:05:09 +1100
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.7ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/views/recipes/index.html.erb:7
+  Rendered recipes/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 91ms (Views: 88.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/recipes/122" for ::1 at 2021-10-29 10:05:12 +1100
+Processing by RecipesController#show as HTML
+  Parameters: {"id"=>"122"}
+  [1m[36mRecipe Load (0.8ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 122], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:27
+  Rendering recipes/show.html.erb within layouts/application
+  Rendered recipes/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 45ms (Views: 40.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/recipes" for ::1 at 2021-10-29 10:05:17 +1100
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (1.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/views/recipes/index.html.erb:7
+  Rendered recipes/index.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 50ms (Views: 46.8ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/recipes/119" for ::1 at 2021-10-29 10:05:20 +1100
+Processing by RecipesController#show as HTML
+  Parameters: {"id"=>"119"}
+  [1m[36mRecipe Load (0.4ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 119], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:27
+  Rendering recipes/show.html.erb within layouts/application
+  Rendered recipes/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 50ms (Views: 46.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/recipes/119" for ::1 at 2021-10-29 10:07:48 +1100
+Processing by RecipesController#show as HTML
+  Parameters: {"id"=>"119"}
+  [1m[36mRecipe Load (7.0ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 119], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:27
+  Rendering recipes/show.html.erb within layouts/application
+  Rendered recipes/show.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 63ms (Views: 51.4ms | ActiveRecord: 7.0ms)
+
+
+Started GET "/recipes" for ::1 at 2021-10-29 10:07:49 +1100
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (1.1ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/views/recipes/index.html.erb:7
+  Rendered recipes/index.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 66ms (Views: 63.1ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/recipes/123" for ::1 at 2021-10-29 10:07:52 +1100
+Processing by RecipesController#show as HTML
+  Parameters: {"id"=>"123"}
+  [1m[36mRecipe Load (0.4ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 123], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:27
+  Rendering recipes/show.html.erb within layouts/application
+  Rendered recipes/show.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 61ms (Views: 57.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/recipes/123" for ::1 at 2021-10-29 10:07:55 +1100
+Processing by RecipesController#show as HTML
+  Parameters: {"id"=>"123"}
+  [1m[36mRecipe Load (0.5ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 123], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:27
+  Rendering recipes/show.html.erb within layouts/application
+  Rendered recipes/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 52ms (Views: 49.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/recipes" for ::1 at 2021-10-29 10:07:56 +1100
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.6ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/views/recipes/index.html.erb:7
+  Rendered recipes/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 48ms (Views: 46.1ms | ActiveRecord: 0.6ms)
+
+
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(5494116146423357355)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (0.9ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT pg_advisory_unlock(5494116146423357355)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[36mUser Load (2.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ db/seeds.rb:1
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:1
+  [1m[36mUser Destroy (1.9ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 53]]
+  ↳ db/seeds.rb:1
+  [1m[35m (0.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:1
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:1
+  [1m[36mUser Destroy (0.2ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 54]]
+  ↳ db/seeds.rb:1
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:1
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:2
+  [1m[36mUser Exists (0.9ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "jonsey@ga.co"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:2
+  [1m[36mUser Create (3.8ms)[0m  [1m[32mINSERT INTO "users" ("email", "created_at", "updated_at", "password_digest") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["email", "jonsey@ga.co"], ["created_at", "2021-10-28 23:08:18.796481"], ["updated_at", "2021-10-28 23:08:18.796481"], ["password_digest", "$2a$12$TsK1Q8qDQ7Zin.Wmo9wHVOM6f4J65kOQ0C3HKct621dZuYJzn/JBy"]]
+  ↳ db/seeds.rb:2
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:2
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mUser Exists (0.7ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "craigsy@ga.co"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:3
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("email", "created_at", "updated_at", "password_digest", "admin") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["email", "craigsy@ga.co"], ["created_at", "2021-10-28 23:08:19.043265"], ["updated_at", "2021-10-28 23:08:19.043265"], ["password_digest", "$2a$12$IC.D21wobPXL96wNVPaV6ul6fkP26p50MubzYWBXyVyYvnOewbr.K"], ["admin", true]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  ↳ db/seeds.rb:4
+  [1m[36mRecipe Load (0.8ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ db/seeds.rb:8
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:8
+  [1m[36mRecipe::HABTM_Myfoods Destroy (0.5ms)[0m  [1m[31mDELETE FROM "myfoods_recipes" WHERE "myfoods_recipes"."recipe_id" = $1[0m  [["recipe_id", 119]]
+  ↳ db/seeds.rb:8
+  [1m[36mRecipe Destroy (0.5ms)[0m  [1m[31mDELETE FROM "recipes" WHERE "recipes"."id" = $1[0m  [["id", 119]]
+  ↳ db/seeds.rb:8
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:8
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:8
+  [1m[36mRecipe::HABTM_Myfoods Destroy (0.3ms)[0m  [1m[31mDELETE FROM "myfoods_recipes" WHERE "myfoods_recipes"."recipe_id" = $1[0m  [["recipe_id", 120]]
+  ↳ db/seeds.rb:8
+  [1m[36mRecipe Destroy (0.2ms)[0m  [1m[31mDELETE FROM "recipes" WHERE "recipes"."id" = $1[0m  [["id", 120]]
+  ↳ db/seeds.rb:8
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:8
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:8
+  [1m[36mRecipe::HABTM_Myfoods Destroy (0.1ms)[0m  [1m[31mDELETE FROM "myfoods_recipes" WHERE "myfoods_recipes"."recipe_id" = $1[0m  [["recipe_id", 121]]
+  ↳ db/seeds.rb:8
+  [1m[36mRecipe Destroy (0.1ms)[0m  [1m[31mDELETE FROM "recipes" WHERE "recipes"."id" = $1[0m  [["id", 121]]
+  ↳ db/seeds.rb:8
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:8
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:8
+  [1m[36mRecipe::HABTM_Myfoods Destroy (0.1ms)[0m  [1m[31mDELETE FROM "myfoods_recipes" WHERE "myfoods_recipes"."recipe_id" = $1[0m  [["recipe_id", 122]]
+  ↳ db/seeds.rb:8
+  [1m[36mRecipe Destroy (0.1ms)[0m  [1m[31mDELETE FROM "recipes" WHERE "recipes"."id" = $1[0m  [["id", 122]]
+  ↳ db/seeds.rb:8
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:8
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:8
+  [1m[36mRecipe::HABTM_Myfoods Destroy (0.3ms)[0m  [1m[31mDELETE FROM "myfoods_recipes" WHERE "myfoods_recipes"."recipe_id" = $1[0m  [["recipe_id", 123]]
+  ↳ db/seeds.rb:8
+  [1m[36mRecipe Destroy (0.3ms)[0m  [1m[31mDELETE FROM "recipes" WHERE "recipes"."id" = $1[0m  [["id", 123]]
+  ↳ db/seeds.rb:8
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:8
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:8
+  [1m[36mRecipe::HABTM_Myfoods Destroy (0.2ms)[0m  [1m[31mDELETE FROM "myfoods_recipes" WHERE "myfoods_recipes"."recipe_id" = $1[0m  [["recipe_id", 124]]
+  ↳ db/seeds.rb:8
+  [1m[36mRecipe Destroy (0.3ms)[0m  [1m[31mDELETE FROM "recipes" WHERE "recipes"."id" = $1[0m  [["id", 124]]
+  ↳ db/seeds.rb:8
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:8
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:8
+  [1m[36mRecipe::HABTM_Myfoods Destroy (0.1ms)[0m  [1m[31mDELETE FROM "myfoods_recipes" WHERE "myfoods_recipes"."recipe_id" = $1[0m  [["recipe_id", 125]]
+  ↳ db/seeds.rb:8
+  [1m[36mRecipe Destroy (0.1ms)[0m  [1m[31mDELETE FROM "recipes" WHERE "recipes"."id" = $1[0m  [["id", 125]]
+  ↳ db/seeds.rb:8
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:8
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:8
+  [1m[36mRecipe::HABTM_Myfoods Destroy (0.1ms)[0m  [1m[31mDELETE FROM "myfoods_recipes" WHERE "myfoods_recipes"."recipe_id" = $1[0m  [["recipe_id", 126]]
+  ↳ db/seeds.rb:8
+  [1m[36mRecipe Destroy (0.1ms)[0m  [1m[31mDELETE FROM "recipes" WHERE "recipes"."id" = $1[0m  [["id", 126]]
+  ↳ db/seeds.rb:8
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:8
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:8
+  [1m[36mRecipe::HABTM_Myfoods Destroy (0.2ms)[0m  [1m[31mDELETE FROM "myfoods_recipes" WHERE "myfoods_recipes"."recipe_id" = $1[0m  [["recipe_id", 127]]
+  ↳ db/seeds.rb:8
+  [1m[36mRecipe Destroy (0.3ms)[0m  [1m[31mDELETE FROM "recipes" WHERE "recipes"."id" = $1[0m  [["id", 127]]
+  ↳ db/seeds.rb:8
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:8
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:8
+  [1m[36mRecipe::HABTM_Myfoods Destroy (0.2ms)[0m  [1m[31mDELETE FROM "myfoods_recipes" WHERE "myfoods_recipes"."recipe_id" = $1[0m  [["recipe_id", 128]]
+  ↳ db/seeds.rb:8
+  [1m[36mRecipe Destroy (0.3ms)[0m  [1m[31mDELETE FROM "recipes" WHERE "recipes"."id" = $1[0m  [["id", 128]]
+  ↳ db/seeds.rb:8
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:8
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:8
+  [1m[36mRecipe::HABTM_Myfoods Destroy (0.1ms)[0m  [1m[31mDELETE FROM "myfoods_recipes" WHERE "myfoods_recipes"."recipe_id" = $1[0m  [["recipe_id", 129]]
+  ↳ db/seeds.rb:8
+  [1m[36mRecipe Destroy (0.2ms)[0m  [1m[31mDELETE FROM "recipes" WHERE "recipes"."id" = $1[0m  [["id", 129]]
+  ↳ db/seeds.rb:8
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:8
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:8
+  [1m[36mRecipe::HABTM_Myfoods Destroy (0.1ms)[0m  [1m[31mDELETE FROM "myfoods_recipes" WHERE "myfoods_recipes"."recipe_id" = $1[0m  [["recipe_id", 130]]
+  ↳ db/seeds.rb:8
+  [1m[36mRecipe Destroy (0.2ms)[0m  [1m[31mDELETE FROM "recipes" WHERE "recipes"."id" = $1[0m  [["id", 130]]
+  ↳ db/seeds.rb:8
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:8
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:10
+  [1m[36mRecipe Create (0.8ms)[0m  [1m[32mINSERT INTO "recipes" ("title", "image", "prep_time", "cook_time", "course", "serves", "main_recipe", "video", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "Pav Bhaji 🥘"], ["image", "https://www.newsdrives.com/wp-content/uploads/2020/11/pav_bhaji_blog.jpg"], ["prep_time", 30], ["cook_time", 60], ["course", "entree"], ["serves", 2], ["main_recipe", "Step 1: Once it heats up, add 2 green cardamoms.\n\nStep 2: Next, add the cubed onions to the oil and stir it until it turns transparent or pink.\n\nStep 3: Add freshly chopped tomatoes and salt to taste. Fry for another 3 minutes.\n\nStep 4: Cook until the mixture of the onion and tomato is soft and mushy.\n\nStep 5: Add in garam masala, coriander powder, red chili powder, sugar, and cashew nuts.\n\nStep 6: Fry the new mixture of onion, tomato, and masala till it leaves the pan’s side and the masala has turned aromatic.\n\nStep 7: Remove the pan from the stove and allow it to cool completely.\n\nStep 8: Put the mixture in a blender and add 1 cup of water. Turn this into a smooth mixture and set aside.\n\nStep 9: In the pan, add 1½ butter and heat it.\n\nStep 10: Add 1-inch cinnamon, 2 green cardamoms, 2 to 3 cloves, and 1 small bay leaf. Fry it for 1 to 2 minutes."], ["video", "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/BRD7b6EraE4\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"], ["created_at", "2021-10-28 23:08:19.085729"], ["updated_at", "2021-10-28 23:08:19.085729"]]
+  ↳ db/seeds.rb:10
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:30
+  [1m[36mRecipe Create (0.3ms)[0m  [1m[32mINSERT INTO "recipes" ("title", "image", "prep_time", "cook_time", "course", "serves", "main_recipe", "video", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "Butter Chicken 🍗"], ["image", "https://vismaifood.com/storage/app/uploads/public/ad2/3c9/7ee/thumb__700_0_0_0_auto.jpg"], ["prep_time", 30], ["cook_time", 60], ["course", "mains"], ["serves", 2], ["main_recipe", "Step 1: Once it heats up, add 2 green cardamoms.\n\nStep 2: Next, add the cubed onions to the oil and stir it until it turns transparent or pink.\n\nStep 3: Add freshly chopped tomatoes and salt to taste. Fry for another 3 minutes.\n\nStep 4: Cook until the mixture of the onion and tomato is soft and mushy.\n\nStep 5: Add in garam masala, coriander powder, red chili powder, sugar, and cashew nuts.\n\nStep 6: Fry the new mixture of onion, tomato, and masala till it leaves the pan’s side and the masala has turned aromatic.\n\nStep 7: Remove the pan from the stove and allow it to cool completely.\n\nStep 8: Put the mixture in a blender and add 1 cup of water. Turn this into a smooth mixture and set aside.\n\nStep 9: In the pan, add 1½ butter and heat it.\n\nStep 10: Add 1-inch cinnamon, 2 green cardamoms, 2 to 3 cloves, and 1 small bay leaf. Fry it for 1 to 2 minutes."], ["video", "<iframe width=\"560\" height=\"315\" align=\"center\" src=\"https://www.youtube.com/embed/RKNogWbAivY\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"], ["created_at", "2021-10-28 23:08:19.087633"], ["updated_at", "2021-10-28 23:08:19.087633"]]
+  ↳ db/seeds.rb:30
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:30
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:50
+  [1m[36mRecipe Create (0.2ms)[0m  [1m[32mINSERT INTO "recipes" ("title", "image", "prep_time", "cook_time", "course", "serves", "main_recipe", "video", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "Lamb Biryani 🍚"], ["image", "https://nishkitchen.com/wp-content/uploads/2019/07/Lamb-Biryani-3B.jpg"], ["prep_time", 30], ["cook_time", 60], ["course", "mains"], ["serves", 2], ["main_recipe", "Step 1: Once it heats up, add 2 green cardamoms.\n\nStep 2: Next, add the cubed onions to the oil and stir it until it turns transparent or pink.\n\nStep 3: Add freshly chopped tomatoes and salt to taste. Fry for another 3 minutes.\n\nStep 4: Cook until the mixture of the onion and tomato is soft and mushy.\n\nStep 5: Add in garam masala, coriander powder, red chili powder, sugar, and cashew nuts.\n\nStep 6: Fry the new mixture of onion, tomato, and masala till it leaves the pan’s side and the masala has turned aromatic.\n\nStep 7: Remove the pan from the stove and allow it to cool completely.\n\nStep 8: Put the mixture in a blender and add 1 cup of water. Turn this into a smooth mixture and set aside.\n\nStep 9: In the pan, add 1½ butter and heat it.\n\nStep 10: Add 1-inch cinnamon, 2 green cardamoms, 2 to 3 cloves, and 1 small bay leaf. Fry it for 1 to 2 minutes."], ["video", "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/E49fvjd6vtg\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"], ["created_at", "2021-10-28 23:08:19.088598"], ["updated_at", "2021-10-28 23:08:19.088598"]]
+  ↳ db/seeds.rb:50
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:50
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:70
+  [1m[36mRecipe Create (0.4ms)[0m  [1m[32mINSERT INTO "recipes" ("title", "image", "prep_time", "cook_time", "course", "serves", "main_recipe", "video", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "Prawn curry 🍤"], ["image", "https://nishkitchen.com/wp-content/uploads/2021/07/Indian-Prawn-Curry-1B.jpg"], ["prep_time", 30], ["cook_time", 30], ["course", "mains"], ["serves", 2], ["main_recipe", "Step 1: Once it heats up, add 2 green cardamoms.\n\nStep 2: Next, add the cubed onions to the oil and stir it until it turns transparent or pink.\n\nStep 3: Add freshly chopped tomatoes and salt to taste. Fry for another 3 minutes.\n\nStep 4: Cook until the mixture of the onion and tomato is soft and mushy.\n\nStep 5: Add in garam masala, coriander powder, red chili powder, sugar, and cashew nuts.\n\nStep 6: Fry the new mixture of onion, tomato, and masala till it leaves the pan’s side and the masala has turned aromatic.\n\nStep 7: Remove the pan from the stove and allow it to cool completely.\n\nStep 8: Put the mixture in a blender and add 1 cup of water. Turn this into a smooth mixture and set aside.\n\nStep 9: In the pan, add 1½ butter and heat it.\n\nStep 10: Add 1-inch cinnamon, 2 green cardamoms, 2 to 3 cloves, and 1 small bay leaf. Fry it for 1 to 2 minutes."], ["video", "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/WqpISaltoM8\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"], ["created_at", "2021-10-28 23:08:19.089526"], ["updated_at", "2021-10-28 23:08:19.089526"]]
+  ↳ db/seeds.rb:70
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:70
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:90
+  [1m[36mRecipe Create (0.4ms)[0m  [1m[32mINSERT INTO "recipes" ("title", "image", "prep_time", "cook_time", "course", "serves", "main_recipe", "video", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "Samosa 🥟"], ["image", "https://www.simplyrecipes.com/thmb/a4Zce6LlijgO1PTgr4kKhjXIpiQ=/450x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2019__12__Vegetable-Samosas-LEAD-7-aaee0979a4884643bc14748a13d7015c.jpg"], ["prep_time", 30], ["cook_time", 60], ["course", "entree"], ["serves", 2], ["main_recipe", "Step 1: Once it heats up, add 2 green cardamoms.\n\nStep 2: Next, add the cubed onions to the oil and stir it until it turns transparent or pink.\n\nStep 3: Add freshly chopped tomatoes and salt to taste. Fry for another 3 minutes.\n\nStep 4: Cook until the mixture of the onion and tomato is soft and mushy.\n\nStep 5: Add in garam masala, coriander powder, red chili powder, sugar, and cashew nuts.\n\nStep 6: Fry the new mixture of onion, tomato, and masala till it leaves the pan’s side and the masala has turned aromatic.\n\nStep 7: Remove the pan from the stove and allow it to cool completely.\n\nStep 8: Put the mixture in a blender and add 1 cup of water. Turn this into a smooth mixture and set aside.\n\nStep 9: In the pan, add 1½ butter and heat it.\n\nStep 10: Add 1-inch cinnamon, 2 green cardamoms, 2 to 3 cloves, and 1 small bay leaf. Fry it for 1 to 2 minutes."], ["video", "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/_eEgrPnqTPQ\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"], ["created_at", "2021-10-28 23:08:19.090635"], ["updated_at", "2021-10-28 23:08:19.090635"]]
+  ↳ db/seeds.rb:90
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:90
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:111
+  [1m[36mRecipe Create (0.2ms)[0m  [1m[32mINSERT INTO "recipes" ("title", "image", "prep_time", "cook_time", "course", "serves", "main_recipe", "video", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "Pani Puri 🧆"], ["image", "https://www.easycookingwithmolly.com/wp-content/uploads/2014/10/stuffed-gol-gappa-chaat.jpg"], ["prep_time", 30], ["cook_time", 60], ["course", "entree"], ["serves", 2], ["main_recipe", "Step 1: Once it heats up, add 2 green cardamoms.\n\nStep 2: Next, add the cubed onions to the oil and stir it until it turns transparent or pink.\n\nStep 3: Add freshly chopped tomatoes and salt to taste. Fry for another 3 minutes.\n\nStep 4: Cook until the mixture of the onion and tomato is soft and mushy.\n\nStep 5: Add in garam masala, coriander powder, red chili powder, sugar, and cashew nuts.\n\nStep 6: Fry the new mixture of onion, tomato, and masala till it leaves the pan’s side and the masala has turned aromatic.\n\nStep 7: Remove the pan from the stove and allow it to cool completely.\n\nStep 8: Put the mixture in a blender and add 1 cup of water. Turn this into a smooth mixture and set aside.\n\nStep 9: In the pan, add 1½ butter and heat it.\n\nStep 10: Add 1-inch cinnamon, 2 green cardamoms, 2 to 3 cloves, and 1 small bay leaf. Fry it for 1 to 2 minutes."], ["video", "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/Gjhn2cqyeG4\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"], ["created_at", "2021-10-28 23:08:19.091700"], ["updated_at", "2021-10-28 23:08:19.091700"]]
+  ↳ db/seeds.rb:111
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:111
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:131
+  [1m[36mRecipe Create (0.2ms)[0m  [1m[32mINSERT INTO "recipes" ("title", "image", "prep_time", "cook_time", "course", "serves", "main_recipe", "video", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "Chicken Tikka 🍗"], ["image", "https://headbangerskitchen.com/wp-content/uploads/2021/01/lowfatCHICKENTIKKA-Vertic.jpg"], ["prep_time", 30], ["cook_time", 60], ["course", "entree"], ["serves", 2], ["main_recipe", "Step 1: Once it heats up, add 2 green cardamoms.\n\nStep 2: Next, add the cubed onions to the oil and stir it until it turns transparent or pink.\n\nStep 3: Add freshly chopped tomatoes and salt to taste. Fry for another 3 minutes.\n\nStep 4: Cook until the mixture of the onion and tomato is soft and mushy.\n\nStep 5: Add in garam masala, coriander powder, red chili powder, sugar, and cashew nuts.\n\nStep 6: Fry the new mixture of onion, tomato, and masala till it leaves the pan’s side and the masala has turned aromatic.\n\nStep 7: Remove the pan from the stove and allow it to cool completely.\n\nStep 8: Put the mixture in a blender and add 1 cup of water. Turn this into a smooth mixture and set aside.\n\nStep 9: In the pan, add 1½ butter and heat it.\n\nStep 10: Add 1-inch cinnamon, 2 green cardamoms, 2 to 3 cloves, and 1 small bay leaf. Fry it for 1 to 2 minutes."], ["video", "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/h4IwrvuN9cQ\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"], ["created_at", "2021-10-28 23:08:19.092608"], ["updated_at", "2021-10-28 23:08:19.092608"]]
+  ↳ db/seeds.rb:131
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:131
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:151
+  [1m[36mRecipe Create (0.3ms)[0m  [1m[32mINSERT INTO "recipes" ("title", "image", "prep_time", "cook_time", "course", "serves", "main_recipe", "video", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "Lamb Rogan Josh 🥘"], ["image", "https://whonomstheworld.com/wp-content/uploads/2020/08/kashmiri-lamb-rogan-josh.jpeg"], ["prep_time", 30], ["cook_time", 60], ["course", "mains"], ["serves", 2], ["main_recipe", "Step 1: Once it heats up, add 2 green cardamoms.\n\nStep 2: Next, add the cubed onions to the oil and stir it until it turns transparent or pink.\n\nStep 3: Add freshly chopped tomatoes and salt to taste. Fry for another 3 minutes.\n\nStep 4: Cook until the mixture of the onion and tomato is soft and mushy.\n\nStep 5: Add in garam masala, coriander powder, red chili powder, sugar, and cashew nuts.\n\nStep 6: Fry the new mixture of onion, tomato, and masala till it leaves the pan’s side and the masala has turned aromatic.\n\nStep 7: Remove the pan from the stove and allow it to cool completely.\n\nStep 8: Put the mixture in a blender and add 1 cup of water. Turn this into a smooth mixture and set aside.\n\nStep 9: In the pan, add 1½ butter and heat it.\n\nStep 10: Add 1-inch cinnamon, 2 green cardamoms, 2 to 3 cloves, and 1 small bay leaf. Fry it for 1 to 2 minutes."], ["video", "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/xTWAtrV4R9E\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"], ["created_at", "2021-10-28 23:08:19.093498"], ["updated_at", "2021-10-28 23:08:19.093498"]]
+  ↳ db/seeds.rb:151
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:151
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:171
+  [1m[36mRecipe Create (0.3ms)[0m  [1m[32mINSERT INTO "recipes" ("title", "image", "prep_time", "cook_time", "course", "serves", "main_recipe", "video", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "Garlic Naan \u{1FAD3}"], ["image", "https://i.pinimg.com/originals/85/e6/6d/85e66d5c99bc60f0fe2f91d8642d6f17.jpg"], ["prep_time", 30], ["cook_time", 60], ["course", "mains"], ["serves", 2], ["main_recipe", "Step 1: Once it heats up, add 2 green cardamoms.\n\nStep 2: Next, add the cubed onions to the oil and stir it until it turns transparent or pink.\n\nStep 3: Add freshly chopped tomatoes and salt to taste. Fry for another 3 minutes.\n\nStep 4: Cook until the mixture of the onion and tomato is soft and mushy.\n\nStep 5: Add in garam masala, coriander powder, red chili powder, sugar, and cashew nuts.\n\nStep 6: Fry the new mixture of onion, tomato, and masala till it leaves the pan’s side and the masala has turned aromatic.\n\nStep 7: Remove the pan from the stove and allow it to cool completely.\n\nStep 8: Put the mixture in a blender and add 1 cup of water. Turn this into a smooth mixture and set aside.\n\nStep 9: In the pan, add 1½ butter and heat it.\n\nStep 10: Add 1-inch cinnamon, 2 green cardamoms, 2 to 3 cloves, and 1 small bay leaf. Fry it for 1 to 2 minutes."], ["video", "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/TQv8-iBUars\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"], ["created_at", "2021-10-28 23:08:19.094444"], ["updated_at", "2021-10-28 23:08:19.094444"]]
+  ↳ db/seeds.rb:171
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:171
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:191
+  [1m[36mRecipe Create (0.2ms)[0m  [1m[32mINSERT INTO "recipes" ("title", "image", "prep_time", "cook_time", "course", "serves", "main_recipe", "video", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "Vada Pav 🍔"], ["image", "https://www.cookwithmanali.com/wp-content/uploads/2018/04/Vada-Pav-Recipe.jpg"], ["prep_time", 30], ["cook_time", 60], ["course", "entree"], ["serves", 2], ["main_recipe", "recipe coming soon"], ["video", "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/r4saZD0J_gU\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"], ["created_at", "2021-10-28 23:08:19.095422"], ["updated_at", "2021-10-28 23:08:19.095422"]]
+  ↳ db/seeds.rb:191
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:191
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:194
+  [1m[36mRecipe Create (0.2ms)[0m  [1m[32mINSERT INTO "recipes" ("title", "image", "prep_time", "cook_time", "course", "serves", "main_recipe", "video", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "Paneer Butter Masala 🥘"], ["image", "https://chefchoice.com.np/wp-content/uploads/2020/10/paneer-butter-masala-paneer-makhani-500x500-1.jpg"], ["prep_time", 30], ["cook_time", 60], ["course", "mains"], ["serves", 2], ["main_recipe", "recipe coming soon"], ["video", "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/nbGVg2j0xc4\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"], ["created_at", "2021-10-28 23:08:19.096324"], ["updated_at", "2021-10-28 23:08:19.096324"]]
+  ↳ db/seeds.rb:194
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:194
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:196
+  [1m[36mRecipe Create (0.2ms)[0m  [1m[32mINSERT INTO "recipes" ("title", "image", "prep_time", "cook_time", "course", "serves", "main_recipe", "video", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "Chicken Tikka Masala"], ["image", "https://sizzlingpots.com/wp-content/uploads/2020/08/Chicken-Tikka-Masala-scaled.jpg"], ["prep_time", 30], ["cook_time", 60], ["course", "mains"], ["serves", 2], ["main_recipe", "recipe coming soon"], ["video", "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/wlDXkXsnDYU\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"], ["created_at", "2021-10-28 23:08:19.097211"], ["updated_at", "2021-10-28 23:08:19.097211"]]
+  ↳ db/seeds.rb:196
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:196
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  ↳ db/seeds.rb:200
+  [1m[36mMyfood Load (0.7ms)[0m  [1m[34mSELECT "myfoods".* FROM "myfoods"[0m
+  ↳ db/seeds.rb:203
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:203
+  [1m[36mMyfood::HABTM_Recipes Destroy (0.2ms)[0m  [1m[31mDELETE FROM "myfoods_recipes" WHERE "myfoods_recipes"."myfood_id" = $1[0m  [["myfood_id", 68]]
+  ↳ db/seeds.rb:203
+  [1m[36mMyfood Destroy (0.1ms)[0m  [1m[31mDELETE FROM "myfoods" WHERE "myfoods"."id" = $1[0m  [["id", 68]]
+  ↳ db/seeds.rb:203
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:203
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:203
+  [1m[36mMyfood::HABTM_Recipes Destroy (0.1ms)[0m  [1m[31mDELETE FROM "myfoods_recipes" WHERE "myfoods_recipes"."myfood_id" = $1[0m  [["myfood_id", 69]]
+  ↳ db/seeds.rb:203
+  [1m[36mMyfood Destroy (0.1ms)[0m  [1m[31mDELETE FROM "myfoods" WHERE "myfoods"."id" = $1[0m  [["id", 69]]
+  ↳ db/seeds.rb:203
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:203
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:203
+  [1m[36mMyfood::HABTM_Recipes Destroy (0.1ms)[0m  [1m[31mDELETE FROM "myfoods_recipes" WHERE "myfoods_recipes"."myfood_id" = $1[0m  [["myfood_id", 70]]
+  ↳ db/seeds.rb:203
+  [1m[36mMyfood Destroy (0.1ms)[0m  [1m[31mDELETE FROM "myfoods" WHERE "myfoods"."id" = $1[0m  [["id", 70]]
+  ↳ db/seeds.rb:203
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:203
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:204
+  [1m[36mMyfood Create (0.2ms)[0m  [1m[32mINSERT INTO "myfoods" ("title", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["title", "Street Food"], ["created_at", "2021-10-28 23:08:19.112348"], ["updated_at", "2021-10-28 23:08:19.112348"]]
+  ↳ db/seeds.rb:204
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:204
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:205
+  [1m[36mMyfood Create (0.1ms)[0m  [1m[32mINSERT INTO "myfoods" ("title", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["title", "Veg Treat"], ["created_at", "2021-10-28 23:08:19.113126"], ["updated_at", "2021-10-28 23:08:19.113126"]]
+  ↳ db/seeds.rb:205
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:205
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:206
+  [1m[36mMyfood Create (0.1ms)[0m  [1m[32mINSERT INTO "myfoods" ("title", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["title", "Non-Veg Masala"], ["created_at", "2021-10-28 23:08:19.113668"], ["updated_at", "2021-10-28 23:08:19.113668"]]
+  ↳ db/seeds.rb:206
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:206
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "myfoods"[0m
+  ↳ db/seeds.rb:207
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:212
+  [1m[36mMyfood::HABTM_Recipes Create (0.2ms)[0m  [1m[32mINSERT INTO "myfoods_recipes" ("myfood_id", "recipe_id") VALUES ($1, $2) RETURNING "id"[0m  [["myfood_id", 71], ["recipe_id", 131]]
+  ↳ db/seeds.rb:212
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:212
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:213
+  [1m[36mMyfood::HABTM_Recipes Create (0.1ms)[0m  [1m[32mINSERT INTO "myfoods_recipes" ("myfood_id", "recipe_id") VALUES ($1, $2) RETURNING "id"[0m  [["myfood_id", 72], ["recipe_id", 131]]
+  ↳ db/seeds.rb:213
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:213
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:213
+  [1m[36mMyfood::HABTM_Recipes Create (0.1ms)[0m  [1m[32mINSERT INTO "myfoods_recipes" ("myfood_id", "recipe_id") VALUES ($1, $2) RETURNING "id"[0m  [["myfood_id", 72], ["recipe_id", 132]]
+  ↳ db/seeds.rb:213
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:213
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:214
+  [1m[36mMyfood::HABTM_Recipes Create (0.1ms)[0m  [1m[32mINSERT INTO "myfoods_recipes" ("myfood_id", "recipe_id") VALUES ($1, $2) RETURNING "id"[0m  [["myfood_id", 73], ["recipe_id", 132]]
+  ↳ db/seeds.rb:214
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:214
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:214
+  [1m[36mMyfood::HABTM_Recipes Create (0.1ms)[0m  [1m[32mINSERT INTO "myfoods_recipes" ("myfood_id", "recipe_id") VALUES ($1, $2) RETURNING "id"[0m  [["myfood_id", 73], ["recipe_id", 133]]
+  ↳ db/seeds.rb:214
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:214
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:217
+  [1m[36mMyfood Update (0.1ms)[0m  [1m[33mUPDATE "myfoods" SET "user_id" = $1, "updated_at" = $2 WHERE "myfoods"."id" = $3[0m  [["user_id", 55], ["updated_at", "2021-10-28 23:08:19.123450"], ["id", 71]]
+  ↳ db/seeds.rb:217
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:217
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:217
+  [1m[36mMyfood Update (0.1ms)[0m  [1m[33mUPDATE "myfoods" SET "user_id" = $1, "updated_at" = $2 WHERE "myfoods"."id" = $3[0m  [["user_id", 55], ["updated_at", "2021-10-28 23:08:19.124207"], ["id", 72]]
+  ↳ db/seeds.rb:217
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:217
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:218
+  [1m[36mMyfood Update (0.1ms)[0m  [1m[33mUPDATE "myfoods" SET "user_id" = $1, "updated_at" = $2 WHERE "myfoods"."id" = $3[0m  [["user_id", 56], ["updated_at", "2021-10-28 23:08:19.124814"], ["id", 72]]
+  ↳ db/seeds.rb:218
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:218
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:218
+  [1m[36mMyfood Update (0.1ms)[0m  [1m[33mUPDATE "myfoods" SET "user_id" = $1, "updated_at" = $2 WHERE "myfoods"."id" = $3[0m  [["user_id", 56], ["updated_at", "2021-10-28 23:08:19.125363"], ["id", 73]]
+  ↳ db/seeds.rb:218
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:218
+Started GET "/recipes" for ::1 at 2021-10-29 10:08:32 +1100
+  [1m[35m (2.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/mayureshjagtap/.rvm/gems/ruby-2.7.4/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (1.0ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/views/recipes/index.html.erb:7
+  Rendered recipes/index.html.erb within layouts/application (15.4ms)
+Completed 200 OK in 192ms (Views: 175.6ms | ActiveRecord: 10.9ms)
+
+
+Started GET "/recipes/134" for ::1 at 2021-10-29 10:08:36 +1100
+Processing by RecipesController#show as HTML
+  Parameters: {"id"=>"134"}
+  [1m[36mRecipe Load (0.7ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 134], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:27
+  Rendering recipes/show.html.erb within layouts/application
+  Rendered recipes/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 49ms (Views: 42.0ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/login" for ::1 at 2021-10-29 10:08:42 +1100
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 46ms (Views: 43.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for ::1 at 2021-10-29 10:08:49 +1100
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3R27agX8Jr04h36A6+DbNFykA81GlSJjYEtPJzQaSYsbovr8pxuqlLjW0aaAebamS4PoJWJXC7X/Flgh5y3DIw==", "email"=>"craigsy@ga.co", "password"=>"[FILTERED]", "commit"=>"Sign in"}
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "craigsy@ga.co"], ["LIMIT", 1]]
+  ↳ app/controllers/session_controller.rb:6
+Redirected to http://localhost:3000/recipes
+Completed 302 Found in 301ms (ActiveRecord: 11.2ms)
+
+
+Started GET "/recipes" for ::1 at 2021-10-29 10:08:49 +1100
+Processing by RecipesController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 56], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.3ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/views/recipes/index.html.erb:7
+  Rendered recipes/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 28ms (Views: 26.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/recipes/134" for ::1 at 2021-10-29 10:08:53 +1100
+Processing by RecipesController#show as HTML
+  Parameters: {"id"=>"134"}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 56], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mRecipe Load (0.6ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 134], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:27
+  Rendering recipes/show.html.erb within layouts/application
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "myfoods"."title", "myfoods"."id" FROM "myfoods" WHERE "myfoods"."user_id" = $1[0m  [["user_id", 56]]
+  ↳ app/views/recipes/show.html.erb:32
+  [1m[35m (2.2ms)[0m  [1m[34mSELECT "myfoods"."id" FROM "myfoods" INNER JOIN "myfoods_recipes" ON "myfoods"."id" = "myfoods_recipes"."myfood_id" WHERE "myfoods_recipes"."recipe_id" = $1[0m  [["recipe_id", 134]]
+  ↳ app/views/recipes/show.html.erb:32
+  Rendered recipes/show.html.erb within layouts/application (43.9ms)
+Completed 200 OK in 83ms (Views: 62.7ms | ActiveRecord: 15.1ms)
+
+
+Started GET "/recipes" for ::1 at 2021-10-29 10:10:09 +1100
+Processing by RecipesController#index as HTML
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 56], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.6ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/views/recipes/index.html.erb:7
+  Rendered recipes/index.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 73ms (Views: 64.2ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/recipes/new" for ::1 at 2021-10-29 10:10:25 +1100
+Processing by RecipesController#new as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 56], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  Rendering recipes/new.html.erb within layouts/application
+  Rendered recipes/new.html.erb within layouts/application (19.5ms)
+Completed 200 OK in 61ms (Views: 56.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/recipes/new" for ::1 at 2021-10-29 10:11:11 +1100
+Processing by RecipesController#new as HTML
+  [1m[36mUser Load (1.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 56], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  Rendering recipes/new.html.erb within layouts/application
+  Rendered recipes/new.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 67ms (Views: 57.7ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/recipes/new" for ::1 at 2021-10-29 10:12:49 +1100
+Processing by RecipesController#new as HTML
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 56], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  Rendering recipes/new.html.erb within layouts/application
+  Rendered recipes/new.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 66ms (Views: 60.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/recipes/new" for ::1 at 2021-10-29 10:13:07 +1100
+Processing by RecipesController#new as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 56], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  Rendering recipes/new.html.erb within layouts/application
+  Rendered recipes/new.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 54ms (Views: 44.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/recipes" for ::1 at 2021-10-29 10:13:19 +1100
+Processing by RecipesController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 56], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (1.3ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/views/recipes/index.html.erb:7
+  Rendered recipes/index.html.erb within layouts/application (11.4ms)
+Completed 200 OK in 72ms (Views: 63.7ms | ActiveRecord: 1.8ms)
+
+
+Started DELETE "/login" for ::1 at 2021-10-29 10:13:25 +1100
+Processing by SessionController#destroy as HTML
+  Parameters: {"authenticity_token"=>"kdgf6HYFy+KVVCxiQwWKlJm+SxviIwrEMqJyVj/vHXGNZDPPhQ7T9Hd5NqWF+54iZyBECwhH9i1Z7MOiMJU8zw=="}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 56], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+Redirected to http://localhost:3000/login
+Completed 302 Found in 5ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/login" for ::1 at 2021-10-29 10:13:25 +1100
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 60ms (Views: 58.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2021-10-29 10:14:24 +1100
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 60ms (Views: 56.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for ::1 at 2021-10-29 10:14:26 +1100
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 44ms (Views: 41.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for ::1 at 2021-10-29 10:14:54 +1100
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 56ms (Views: 53.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2021-10-29 10:15:03 +1100
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 51ms (Views: 49.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for ::1 at 2021-10-29 10:15:37 +1100
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 55ms (Views: 52.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2021-10-29 10:15:45 +1100
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 52ms (Views: 49.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for ::1 at 2021-10-29 10:16:00 +1100
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vTVI9B4P3XsTXnNPrayz9hkgptMD7hTLqgImqorbkxt7iglivOhRUpMP3GnGNd5kDgdNOycsPR01XzGsWewZsw==", "email"=>"craigsy@ga.co", "password"=>"[FILTERED]", "commit"=>"Sign in"}
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "craigsy@ga.co"], ["LIMIT", 1]]
+  ↳ app/controllers/session_controller.rb:6
+Redirected to http://localhost:3000/recipes
+Completed 302 Found in 285ms (ActiveRecord: 0.9ms)
+
+
+Started GET "/recipes" for ::1 at 2021-10-29 10:16:00 +1100
+Processing by RecipesController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 56], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.4ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/views/recipes/index.html.erb:7
+  Rendered recipes/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 23ms (Views: 21.2ms | ActiveRecord: 0.7ms)
+
+
+Started DELETE "/login" for ::1 at 2021-10-29 10:16:08 +1100
+Processing by SessionController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Mk3RaulkK+MxFx+hbNz2dIoMrBKPlFzQT4TKoZ2G+E0u8f1NGm8z9dM6BWaqIuLCdJKjAmXwoDkkyntVkvzZ8w=="}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 56], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+Redirected to http://localhost:3000/login
+Completed 302 Found in 2ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/login" for ::1 at 2021-10-29 10:16:08 +1100
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 45ms (Views: 42.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for ::1 at 2021-10-29 10:16:10 +1100
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.9ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/views/recipes/index.html.erb:7
+  Rendered recipes/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 51ms (Views: 48.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/recipes/137" for ::1 at 2021-10-29 10:17:36 +1100
+Processing by RecipesController#show as HTML
+  Parameters: {"id"=>"137"}
+  [1m[36mRecipe Load (0.8ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 137], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:27
+  Rendering recipes/show.html.erb within layouts/application
+  Rendered recipes/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 58ms (Views: 54.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/recipes" for ::1 at 2021-10-29 10:18:15 +1100
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.8ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/views/recipes/index.html.erb:7
+  Rendered recipes/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 89ms (Views: 84.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/users/new" for ::1 at 2021-10-29 10:18:26 +1100
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 52ms (Views: 50.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2021-10-29 10:18:34 +1100
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 52ms (Views: 49.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for ::1 at 2021-10-29 10:18:40 +1100
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gdyOHA019LptIjTmdsJf02bLQtJUrbT6eqzL9OEgJHBHY8+Kr9J4k+1zm8AdWzJBceypOnBvnSzl8dzyMheu2A==", "email"=>"craigsy@ga.co", "password"=>"[FILTERED]", "commit"=>"Sign in"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "craigsy@ga.co"], ["LIMIT", 1]]
+  ↳ app/controllers/session_controller.rb:6
+Redirected to http://localhost:3000/recipes
+Completed 302 Found in 283ms (ActiveRecord: 0.6ms)
+
+
+Started GET "/recipes" for ::1 at 2021-10-29 10:18:41 +1100
+Processing by RecipesController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 56], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.4ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/views/recipes/index.html.erb:7
+  Rendered recipes/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 17ms (Views: 15.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/recipes/new" for ::1 at 2021-10-29 10:18:53 +1100
+Processing by RecipesController#new as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 56], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  Rendering recipes/new.html.erb within layouts/application
+  Rendered recipes/new.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 53ms (Views: 49.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/recipes" for ::1 at 2021-10-29 10:19:41 +1100
+Processing by RecipesController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 56], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.7ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/views/recipes/index.html.erb:7
+  Rendered recipes/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 51ms (Views: 47.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/myfoods/new" for ::1 at 2021-10-29 10:19:44 +1100
+Processing by MyfoodsController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 56], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  Rendering myfoods/new.html.erb within layouts/application
+  Rendered myfoods/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 46ms (Views: 37.1ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/myfoods" for ::1 at 2021-10-29 10:20:23 +1100
+Processing by MyfoodsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xfJq5ipbn7WzHTKkvjx6Mrbf/Ts/5ynRRA7v0MEE5PQ8KLIGvxqlCx9qFgnqGVeM/pZptZtUMjDe3usLWQUuHQ==", "myfood"=>{"title"=>"Street Food"}, "commit"=>"Create Myfood"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 56], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[35m (1.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/myfoods_controller.rb:14
+  [1m[36mMyfood Create (4.6ms)[0m  [1m[32mINSERT INTO "myfoods" ("title", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["title", "Street Food"], ["created_at", "2021-10-28 23:20:23.781216"], ["updated_at", "2021-10-28 23:20:23.781216"]]
+  ↳ app/controllers/myfoods_controller.rb:14
+  [1m[35m (1.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/myfoods_controller.rb:14
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/myfoods_controller.rb:15
+  [1m[36mMyfood Update (1.8ms)[0m  [1m[33mUPDATE "myfoods" SET "user_id" = $1, "updated_at" = $2 WHERE "myfoods"."id" = $3[0m  [["user_id", 56], ["updated_at", "2021-10-28 23:20:23.805151"], ["id", 74]]
+  ↳ app/controllers/myfoods_controller.rb:15
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/myfoods_controller.rb:15
+Redirected to http://localhost:3000/recipes
+Completed 302 Found in 36ms (ActiveRecord: 10.3ms)
+
+
+Started GET "/recipes" for ::1 at 2021-10-29 10:20:23 +1100
+Processing by RecipesController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 56], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.7ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/views/recipes/index.html.erb:7
+  Rendered recipes/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 48ms (Views: 43.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/recipes/135" for ::1 at 2021-10-29 10:20:27 +1100
+Processing by RecipesController#show as HTML
+  Parameters: {"id"=>"135"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 56], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mRecipe Load (0.7ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 135], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:27
+  Rendering recipes/show.html.erb within layouts/application
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "myfoods"."title", "myfoods"."id" FROM "myfoods" WHERE "myfoods"."user_id" = $1[0m  [["user_id", 56]]
+  ↳ app/views/recipes/show.html.erb:32
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "myfoods"."id" FROM "myfoods" INNER JOIN "myfoods_recipes" ON "myfoods"."id" = "myfoods_recipes"."myfood_id" WHERE "myfoods_recipes"."recipe_id" = $1[0m  [["recipe_id", 135]]
+  ↳ app/views/recipes/show.html.erb:32
+  Rendered recipes/show.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 58ms (Views: 52.5ms | ActiveRecord: 2.4ms)
+
+
+Started PATCH "/recipes/135" for ::1 at 2021-10-29 10:20:32 +1100
+Processing by RecipesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"2cI1PrdOhGTaIKFGCN8l1NP/JqCwtoW8TZaThSTY2Mdr1F2GLBCJNS+vef6B77qC6p61hTFVH2J/v5Lyacn5Gw==", "recipe"=>{"myfood_ids"=>"74"}, "commit"=>"Add to list", "id"=>"135"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 56], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mRecipe Load (0.7ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 135], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:33
+  [1m[36mMyfood Load (0.5ms)[0m  [1m[34mSELECT  "myfoods".* FROM "myfoods" WHERE "myfoods"."id" = $1 LIMIT $2[0m  [["id", 74], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:35
+  [1m[36mRecipe Exists (0.9ms)[0m  [1m[34mSELECT  1 AS one FROM "recipes" INNER JOIN "myfoods_recipes" ON "recipes"."id" = "myfoods_recipes"."recipe_id" WHERE "myfoods_recipes"."myfood_id" = $1 AND "recipes"."id" = $2 LIMIT $3[0m  [["myfood_id", 74], ["id", 135], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:36
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/recipes_controller.rb:40
+  [1m[36mMyfood::HABTM_Recipes Create (2.5ms)[0m  [1m[32mINSERT INTO "myfoods_recipes" ("myfood_id", "recipe_id") VALUES ($1, $2) RETURNING "id"[0m  [["myfood_id", 74], ["recipe_id", 135]]
+  ↳ app/controllers/recipes_controller.rb:40
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/recipes_controller.rb:40
+Redirected to http://localhost:3000/myfoods/74
+Completed 302 Found in 29ms (ActiveRecord: 12.5ms)
+
+
+Started GET "/myfoods/74" for ::1 at 2021-10-29 10:20:32 +1100
+Processing by MyfoodsController#show as HTML
+  Parameters: {"id"=>"74"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 56], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mMyfood Load (0.5ms)[0m  [1m[34mSELECT  "myfoods".* FROM "myfoods" WHERE "myfoods"."id" = $1 LIMIT $2[0m  [["id", 74], ["LIMIT", 1]]
+  ↳ app/controllers/myfoods_controller.rb:20
+  Rendering myfoods/show.html.erb within layouts/application
+  [1m[36mRecipe Load (1.3ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" INNER JOIN "myfoods_recipes" ON "recipes"."id" = "myfoods_recipes"."recipe_id" WHERE "myfoods_recipes"."myfood_id" = $1[0m  [["myfood_id", 74]]
+  ↳ app/views/myfoods/show.html.erb:7
+  Rendered myfoods/show.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 58ms (Views: 51.4ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/recipes" for ::1 at 2021-10-29 10:20:35 +1100
+Processing by RecipesController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 56], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.7ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/views/recipes/index.html.erb:7
+  Rendered recipes/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 54ms (Views: 50.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/recipes/138" for ::1 at 2021-10-29 10:20:41 +1100
+Processing by RecipesController#show as HTML
+  Parameters: {"id"=>"138"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 56], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mRecipe Load (0.6ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 138], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:27
+  Rendering recipes/show.html.erb within layouts/application
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "myfoods"."title", "myfoods"."id" FROM "myfoods" WHERE "myfoods"."user_id" = $1[0m  [["user_id", 56]]
+  ↳ app/views/recipes/show.html.erb:32
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "myfoods"."id" FROM "myfoods" INNER JOIN "myfoods_recipes" ON "myfoods"."id" = "myfoods_recipes"."myfood_id" WHERE "myfoods_recipes"."recipe_id" = $1[0m  [["recipe_id", 138]]
+  ↳ app/views/recipes/show.html.erb:32
+  Rendered recipes/show.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 62ms (Views: 56.0ms | ActiveRecord: 2.2ms)
+
+
+Started PATCH "/recipes/138" for ::1 at 2021-10-29 10:20:48 +1100
+Processing by RecipesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8leOvSZgImXvIVfTmyKNucpVPnlLLF/BNJprnk9XNbqDB8bK2RksboWKYIcLRYpmcoTd+XdRNxKNzOUz0i7mAQ==", "recipe"=>{"myfood_ids"=>"74"}, "commit"=>"Add to list", "id"=>"138"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 56], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mRecipe Load (0.3ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 138], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:33
+  [1m[36mMyfood Load (0.4ms)[0m  [1m[34mSELECT  "myfoods".* FROM "myfoods" WHERE "myfoods"."id" = $1 LIMIT $2[0m  [["id", 74], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:35
+  [1m[36mRecipe Exists (1.0ms)[0m  [1m[34mSELECT  1 AS one FROM "recipes" INNER JOIN "myfoods_recipes" ON "recipes"."id" = "myfoods_recipes"."recipe_id" WHERE "myfoods_recipes"."myfood_id" = $1 AND "recipes"."id" = $2 LIMIT $3[0m  [["myfood_id", 74], ["id", 138], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:36
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/recipes_controller.rb:40
+  [1m[36mMyfood::HABTM_Recipes Create (0.7ms)[0m  [1m[32mINSERT INTO "myfoods_recipes" ("myfood_id", "recipe_id") VALUES ($1, $2) RETURNING "id"[0m  [["myfood_id", 74], ["recipe_id", 138]]
+  ↳ app/controllers/recipes_controller.rb:40
+  [1m[35m (0.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/recipes_controller.rb:40
+Redirected to http://localhost:3000/myfoods/74
+Completed 302 Found in 15ms (ActiveRecord: 4.0ms)
+
+
+Started GET "/myfoods/74" for ::1 at 2021-10-29 10:20:48 +1100
+Processing by MyfoodsController#show as HTML
+  Parameters: {"id"=>"74"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 56], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mMyfood Load (0.3ms)[0m  [1m[34mSELECT  "myfoods".* FROM "myfoods" WHERE "myfoods"."id" = $1 LIMIT $2[0m  [["id", 74], ["LIMIT", 1]]
+  ↳ app/controllers/myfoods_controller.rb:20
+  Rendering myfoods/show.html.erb within layouts/application
+  [1m[36mRecipe Load (1.0ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" INNER JOIN "myfoods_recipes" ON "recipes"."id" = "myfoods_recipes"."recipe_id" WHERE "myfoods_recipes"."myfood_id" = $1[0m  [["myfood_id", 74]]
+  ↳ app/views/myfoods/show.html.erb:7
+  Rendered myfoods/show.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 67ms (Views: 62.6ms | ActiveRecord: 1.6ms)
+
+
+Started DELETE "/myfoods/74/recipes/138" for ::1 at 2021-10-29 10:20:52 +1100
+Processing by MyfoodsController#remove_recipe as HTML
+  Parameters: {"authenticity_token"=>"MkOUl2P7rKjTwInaNnjckULtWmokg01OBDBikYJy8L0u/7iwkPC0vjHtkx3whsgnvHNVes7nsadvftNljQjRAw==", "myfood_id"=>"74", "recipe_id"=>"138"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 56], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mMyfood Load (0.4ms)[0m  [1m[34mSELECT  "myfoods".* FROM "myfoods" WHERE "myfoods"."id" = $1 LIMIT $2[0m  [["id", 74], ["LIMIT", 1]]
+  ↳ app/controllers/myfoods_controller.rb:24
+  [1m[36mRecipe Load (0.3ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 138], ["LIMIT", 1]]
+  ↳ app/controllers/myfoods_controller.rb:25
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/myfoods_controller.rb:26
+  [1m[36mHABTM_Recipes Load (0.6ms)[0m  [1m[34mSELECT "myfoods_recipes".* FROM "myfoods_recipes" WHERE "myfoods_recipes"."myfood_id" = $1 AND "myfoods_recipes"."recipe_id" = $2[0m  [["myfood_id", 74], ["recipe_id", 138]]
+  ↳ app/controllers/myfoods_controller.rb:26
+  [1m[36mMyfood::HABTM_Recipes Destroy (0.7ms)[0m  [1m[31mDELETE FROM "myfoods_recipes" WHERE "myfoods_recipes"."id" = $1[0m  [["id", 155]]
+  ↳ app/controllers/myfoods_controller.rb:26
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/myfoods_controller.rb:26
+Redirected to http://localhost:3000/myfoods/74
+Completed 302 Found in 12ms (ActiveRecord: 3.1ms)
+
+
+Started GET "/myfoods/74" for ::1 at 2021-10-29 10:20:52 +1100
+Processing by MyfoodsController#show as HTML
+  Parameters: {"id"=>"74"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 56], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mMyfood Load (0.4ms)[0m  [1m[34mSELECT  "myfoods".* FROM "myfoods" WHERE "myfoods"."id" = $1 LIMIT $2[0m  [["id", 74], ["LIMIT", 1]]
+  ↳ app/controllers/myfoods_controller.rb:20
+  Rendering myfoods/show.html.erb within layouts/application
+  [1m[36mRecipe Load (0.8ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" INNER JOIN "myfoods_recipes" ON "recipes"."id" = "myfoods_recipes"."recipe_id" WHERE "myfoods_recipes"."myfood_id" = $1[0m  [["myfood_id", 74]]
+  ↳ app/views/myfoods/show.html.erb:7
+  Rendered myfoods/show.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 62ms (Views: 57.5ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/recipes" for ::1 at 2021-10-29 10:20:58 +1100
+Processing by RecipesController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 56], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.6ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/views/recipes/index.html.erb:7
+  Rendered recipes/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 58ms (Views: 53.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/myfoods" for ::1 at 2021-10-29 10:20:59 +1100
+Processing by MyfoodsController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 56], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  Rendering myfoods/index.html.erb within layouts/application
+  [1m[36mMyfood Load (0.4ms)[0m  [1m[34mSELECT "myfoods".* FROM "myfoods" WHERE "myfoods"."user_id" = $1[0m  [["user_id", 56]]
+  ↳ app/views/myfoods/index.html.erb:4
+  Rendered myfoods/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 56ms (Views: 51.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/myfoods/72" for ::1 at 2021-10-29 10:21:09 +1100
+Processing by MyfoodsController#show as HTML
+  Parameters: {"id"=>"72"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 56], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mMyfood Load (0.3ms)[0m  [1m[34mSELECT  "myfoods".* FROM "myfoods" WHERE "myfoods"."id" = $1 LIMIT $2[0m  [["id", 72], ["LIMIT", 1]]
+  ↳ app/controllers/myfoods_controller.rb:20
+  Rendering myfoods/show.html.erb within layouts/application
+  [1m[36mRecipe Load (1.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" INNER JOIN "myfoods_recipes" ON "recipes"."id" = "myfoods_recipes"."recipe_id" WHERE "myfoods_recipes"."myfood_id" = $1[0m  [["myfood_id", 72]]
+  ↳ app/views/myfoods/show.html.erb:7
+  Rendered myfoods/show.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 60ms (Views: 55.1ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/recipes" for ::1 at 2021-10-29 10:21:27 +1100
+Processing by RecipesController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 56], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.7ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/views/recipes/index.html.erb:7
+  Rendered recipes/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 53ms (Views: 49.2ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/search?q=Chicken" for ::1 at 2021-10-29 10:21:51 +1100
+Processing by RecipesController#search as HTML
+  Parameters: {"q"=>"Chicken"}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 56], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  Rendering recipes/search.html.erb within layouts/application
+  [1m[36mRecipe Load (1.7ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE (title LIKE '%Chicken%')[0m
+  ↳ app/views/recipes/search.html.erb:4
+  Rendered recipes/search.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 60ms (Views: 52.8ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/search?q=Samosa" for ::1 at 2021-10-29 10:22:00 +1100
+Processing by RecipesController#search as HTML
+  Parameters: {"q"=>"Samosa"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 56], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  Rendering recipes/search.html.erb within layouts/application
+  [1m[36mRecipe Load (0.8ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE (title LIKE '%Samosa%')[0m
+  ↳ app/views/recipes/search.html.erb:4
+  Rendered recipes/search.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 52ms (Views: 48.4ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/search?q=Lamb" for ::1 at 2021-10-29 10:22:04 +1100
+Processing by RecipesController#search as HTML
+  Parameters: {"q"=>"Lamb"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 56], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  Rendering recipes/search.html.erb within layouts/application
+  [1m[36mRecipe Load (0.9ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE (title LIKE '%Lamb%')[0m
+  ↳ app/views/recipes/search.html.erb:4
+  Rendered recipes/search.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 52ms (Views: 48.1ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/recipes" for ::1 at 2021-10-29 10:22:12 +1100
+Processing by RecipesController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 56], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.7ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/views/recipes/index.html.erb:7
+  Rendered recipes/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 66ms (Views: 57.6ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/recipes/131" for ::1 at 2021-10-29 10:22:16 +1100
+Processing by RecipesController#show as HTML
+  Parameters: {"id"=>"131"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 56], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mRecipe Load (0.3ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 131], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:27
+  Rendering recipes/show.html.erb within layouts/application
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "myfoods"."title", "myfoods"."id" FROM "myfoods" WHERE "myfoods"."user_id" = $1[0m  [["user_id", 56]]
+  ↳ app/views/recipes/show.html.erb:32
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "myfoods"."id" FROM "myfoods" INNER JOIN "myfoods_recipes" ON "myfoods"."id" = "myfoods_recipes"."myfood_id" WHERE "myfoods_recipes"."recipe_id" = $1[0m  [["recipe_id", 131]]
+  ↳ app/views/recipes/show.html.erb:32
+  Rendered recipes/show.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 61ms (Views: 56.0ms | ActiveRecord: 1.6ms)
+
+
+Started DELETE "/login" for ::1 at 2021-10-29 10:23:15 +1100
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/mayureshjagtap/.rvm/gems/ruby-2.7.4/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Processing by SessionController#destroy as HTML
+  Parameters: {"authenticity_token"=>"8j+n+B5Z8muNHJR+Nkg95d8IZVNQKpk6rCbtsnsTKpvug4vf7VLqfW8xjrnwtilTIZZqQ7pOZdPHaFxGdGkLJQ=="}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 56], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+Redirected to http://localhost:3000/login
+Completed 302 Found in 20ms (ActiveRecord: 12.3ms)
+
+
+Started GET "/login" for ::1 at 2021-10-29 10:23:16 +1100
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 122ms (Views: 121.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for ::1 at 2021-10-29 10:23:17 +1100
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (11.7ms)
+Completed 200 OK in 52ms (Views: 49.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for ::1 at 2021-10-29 10:23:27 +1100
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XQXQ2liy31+7/4rKFa8qVpo/U87AKrUvqYwXrs0vKr5pt7ybGF+1yhFGQzguUqW26xn71lXgbZ4hbzko3Ar7nA==", "user"=>{"email"=>"Pat@ga.co", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign Up"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:14
+  [1m[36mUser Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "Pat@ga.co"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:14
+  [1m[36mUser Create (0.8ms)[0m  [1m[32mINSERT INTO "users" ("email", "created_at", "updated_at", "password_digest") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["email", "Pat@ga.co"], ["created_at", "2021-10-28 23:23:27.878803"], ["updated_at", "2021-10-28 23:23:27.878803"], ["password_digest", "$2a$12$n6BzcYlU5BKYdOwXPC7Nme1JBk9p0jvp1jSmcSLmEY.arvenijxdu"]]
+  ↳ app/controllers/users_controller.rb:14
+  [1m[35m (1.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:14
+Redirected to http://localhost:3000/recipes
+Completed 302 Found in 286ms (ActiveRecord: 3.0ms)
+
+
+Started GET "/recipes" for ::1 at 2021-10-29 10:23:27 +1100
+Processing by RecipesController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 57], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (1.4ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/views/recipes/index.html.erb:7
+  Rendered recipes/index.html.erb within layouts/application (14.1ms)
+Completed 200 OK in 46ms (Views: 32.0ms | ActiveRecord: 10.2ms)
+
+
+Started DELETE "/login" for ::1 at 2021-10-29 10:23:29 +1100
+Processing by SessionController#destroy as HTML
+  Parameters: {"authenticity_token"=>"MO5AISrBg9G7saapa8ZOYaJfoQEpzVHTMYculWdz578sUmwG2cqbx1mcvG6tOFrXXMGuEcOprTpayZ9haAnGAQ=="}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 57], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+Redirected to http://localhost:3000/login
+Completed 302 Found in 4ms (ActiveRecord: 0.8ms)
+
+
+Started GET "/login" for ::1 at 2021-10-29 10:23:29 +1100
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 56ms (Views: 54.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for ::1 at 2021-10-29 10:23:38 +1100
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 50ms (Views: 47.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for ::1 at 2021-10-29 10:23:47 +1100
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RSncf+s/LC5A2va2cwbNEj1SBOosNxs9qSujHkn2o+Zxm7A+q9JGu+pjP0RI+0LyTHSs8rn9w4whyI2YWNNyxA==", "user"=>{"email"=>"Ro@ga.co", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign Up"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:14
+  [1m[36mUser Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "Ro@ga.co"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:14
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("email", "created_at", "updated_at", "password_digest") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["email", "Ro@ga.co"], ["created_at", "2021-10-28 23:23:48.156098"], ["updated_at", "2021-10-28 23:23:48.156098"], ["password_digest", "$2a$12$VGYvU6np/Vqcd.tglYvvP.nVy8mCQ2n.Gr3rUzntJcl6gz9yS.29q"]]
+  ↳ app/controllers/users_controller.rb:14
+  [1m[35m (1.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:14
+Redirected to http://localhost:3000/recipes
+Completed 302 Found in 284ms (ActiveRecord: 2.7ms)
+
+
+Started GET "/recipes" for ::1 at 2021-10-29 10:23:48 +1100
+Processing by RecipesController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 58], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.3ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/views/recipes/index.html.erb:7
+  Rendered recipes/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 18ms (Views: 16.6ms | ActiveRecord: 0.6ms)
+
+
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(5494116146423357355)[0m
+  ↳ bin/rails:9
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (0.8ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(5494116146423357355)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ db/seeds.rb:1
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:1
+  [1m[36mUser Destroy (0.4ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 55]]
+  ↳ db/seeds.rb:1
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:1
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:1
+  [1m[36mUser Destroy (0.3ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 56]]
+  ↳ db/seeds.rb:1
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:1
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:1
+  [1m[36mUser Destroy (0.2ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 57]]
+  ↳ db/seeds.rb:1
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:1
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:1
+  [1m[36mUser Destroy (0.2ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 58]]
+  ↳ db/seeds.rb:1
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:1
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:2
+  [1m[36mUser Exists (1.0ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "jonsey@ga.co"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:2
+  [1m[36mUser Create (1.1ms)[0m  [1m[32mINSERT INTO "users" ("email", "created_at", "updated_at", "password_digest") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["email", "jonsey@ga.co"], ["created_at", "2021-10-28 23:24:53.438598"], ["updated_at", "2021-10-28 23:24:53.438598"], ["password_digest", "$2a$12$T9wINji.OlGDaSLF4hyI5OWQ4Us4GkF9juUjqzkiMsSCV0kdYHk/W"]]
+  ↳ db/seeds.rb:2
+  [1m[35m (1.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:2
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mUser Exists (0.7ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "craigsy@ga.co"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:3
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("email", "created_at", "updated_at", "password_digest", "admin") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["email", "craigsy@ga.co"], ["created_at", "2021-10-28 23:24:53.683557"], ["updated_at", "2021-10-28 23:24:53.683557"], ["password_digest", "$2a$12$ZphWHyXciBTj04uJuHlfK.XEMIRB0WB3FGq.pseIlZfyuo67lJdba"], ["admin", true]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  ↳ db/seeds.rb:4
+  [1m[36mRecipe Load (1.1ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ db/seeds.rb:8
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:8
+  [1m[36mRecipe::HABTM_Myfoods Destroy (0.5ms)[0m  [1m[31mDELETE FROM "myfoods_recipes" WHERE "myfoods_recipes"."recipe_id" = $1[0m  [["recipe_id", 131]]
+  ↳ db/seeds.rb:8
+  [1m[36mRecipe Destroy (0.4ms)[0m  [1m[31mDELETE FROM "recipes" WHERE "recipes"."id" = $1[0m  [["id", 131]]
+  ↳ db/seeds.rb:8
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:8
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:8
+  [1m[36mRecipe::HABTM_Myfoods Destroy (0.3ms)[0m  [1m[31mDELETE FROM "myfoods_recipes" WHERE "myfoods_recipes"."recipe_id" = $1[0m  [["recipe_id", 132]]
+  ↳ db/seeds.rb:8
+  [1m[36mRecipe Destroy (0.4ms)[0m  [1m[31mDELETE FROM "recipes" WHERE "recipes"."id" = $1[0m  [["id", 132]]
+  ↳ db/seeds.rb:8
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:8
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:8
+  [1m[36mRecipe::HABTM_Myfoods Destroy (0.1ms)[0m  [1m[31mDELETE FROM "myfoods_recipes" WHERE "myfoods_recipes"."recipe_id" = $1[0m  [["recipe_id", 133]]
+  ↳ db/seeds.rb:8
+  [1m[36mRecipe Destroy (0.1ms)[0m  [1m[31mDELETE FROM "recipes" WHERE "recipes"."id" = $1[0m  [["id", 133]]
+  ↳ db/seeds.rb:8
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:8
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:8
+  [1m[36mRecipe::HABTM_Myfoods Destroy (0.1ms)[0m  [1m[31mDELETE FROM "myfoods_recipes" WHERE "myfoods_recipes"."recipe_id" = $1[0m  [["recipe_id", 134]]
+  ↳ db/seeds.rb:8
+  [1m[36mRecipe Destroy (0.1ms)[0m  [1m[31mDELETE FROM "recipes" WHERE "recipes"."id" = $1[0m  [["id", 134]]
+  ↳ db/seeds.rb:8
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:8
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:8
+  [1m[36mRecipe::HABTM_Myfoods Destroy (0.2ms)[0m  [1m[31mDELETE FROM "myfoods_recipes" WHERE "myfoods_recipes"."recipe_id" = $1[0m  [["recipe_id", 135]]
+  ↳ db/seeds.rb:8
+  [1m[36mRecipe Destroy (0.3ms)[0m  [1m[31mDELETE FROM "recipes" WHERE "recipes"."id" = $1[0m  [["id", 135]]
+  ↳ db/seeds.rb:8
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:8
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:8
+  [1m[36mRecipe::HABTM_Myfoods Destroy (0.2ms)[0m  [1m[31mDELETE FROM "myfoods_recipes" WHERE "myfoods_recipes"."recipe_id" = $1[0m  [["recipe_id", 136]]
+  ↳ db/seeds.rb:8
+  [1m[36mRecipe Destroy (0.3ms)[0m  [1m[31mDELETE FROM "recipes" WHERE "recipes"."id" = $1[0m  [["id", 136]]
+  ↳ db/seeds.rb:8
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:8
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:8
+  [1m[36mRecipe::HABTM_Myfoods Destroy (0.1ms)[0m  [1m[31mDELETE FROM "myfoods_recipes" WHERE "myfoods_recipes"."recipe_id" = $1[0m  [["recipe_id", 137]]
+  ↳ db/seeds.rb:8
+  [1m[36mRecipe Destroy (0.2ms)[0m  [1m[31mDELETE FROM "recipes" WHERE "recipes"."id" = $1[0m  [["id", 137]]
+  ↳ db/seeds.rb:8
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:8
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:8
+  [1m[36mRecipe::HABTM_Myfoods Destroy (0.2ms)[0m  [1m[31mDELETE FROM "myfoods_recipes" WHERE "myfoods_recipes"."recipe_id" = $1[0m  [["recipe_id", 138]]
+  ↳ db/seeds.rb:8
+  [1m[36mRecipe Destroy (0.2ms)[0m  [1m[31mDELETE FROM "recipes" WHERE "recipes"."id" = $1[0m  [["id", 138]]
+  ↳ db/seeds.rb:8
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:8
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:8
+  [1m[36mRecipe::HABTM_Myfoods Destroy (0.4ms)[0m  [1m[31mDELETE FROM "myfoods_recipes" WHERE "myfoods_recipes"."recipe_id" = $1[0m  [["recipe_id", 139]]
+  ↳ db/seeds.rb:8
+  [1m[36mRecipe Destroy (0.4ms)[0m  [1m[31mDELETE FROM "recipes" WHERE "recipes"."id" = $1[0m  [["id", 139]]
+  ↳ db/seeds.rb:8
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:8
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:8
+  [1m[36mRecipe::HABTM_Myfoods Destroy (0.2ms)[0m  [1m[31mDELETE FROM "myfoods_recipes" WHERE "myfoods_recipes"."recipe_id" = $1[0m  [["recipe_id", 140]]
+  ↳ db/seeds.rb:8
+  [1m[36mRecipe Destroy (0.2ms)[0m  [1m[31mDELETE FROM "recipes" WHERE "recipes"."id" = $1[0m  [["id", 140]]
+  ↳ db/seeds.rb:8
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:8
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:8
+  [1m[36mRecipe::HABTM_Myfoods Destroy (0.1ms)[0m  [1m[31mDELETE FROM "myfoods_recipes" WHERE "myfoods_recipes"."recipe_id" = $1[0m  [["recipe_id", 141]]
+  ↳ db/seeds.rb:8
+  [1m[36mRecipe Destroy (0.1ms)[0m  [1m[31mDELETE FROM "recipes" WHERE "recipes"."id" = $1[0m  [["id", 141]]
+  ↳ db/seeds.rb:8
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:8
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:8
+  [1m[36mRecipe::HABTM_Myfoods Destroy (0.1ms)[0m  [1m[31mDELETE FROM "myfoods_recipes" WHERE "myfoods_recipes"."recipe_id" = $1[0m  [["recipe_id", 142]]
+  ↳ db/seeds.rb:8
+  [1m[36mRecipe Destroy (0.1ms)[0m  [1m[31mDELETE FROM "recipes" WHERE "recipes"."id" = $1[0m  [["id", 142]]
+  ↳ db/seeds.rb:8
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:8
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:10
+  [1m[36mRecipe Create (1.1ms)[0m  [1m[32mINSERT INTO "recipes" ("title", "image", "prep_time", "cook_time", "course", "serves", "main_recipe", "video", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "Pav Bhaji 🥘"], ["image", "https://www.newsdrives.com/wp-content/uploads/2020/11/pav_bhaji_blog.jpg"], ["prep_time", 30], ["cook_time", 60], ["course", "entree"], ["serves", 2], ["main_recipe", "Step 1: Once it heats up, add 2 green cardamoms.\n\nStep 2: Next, add the cubed onions to the oil and stir it until it turns transparent or pink.\n\nStep 3: Add freshly chopped tomatoes and salt to taste. Fry for another 3 minutes.\n\nStep 4: Cook until the mixture of the onion and tomato is soft and mushy.\n\nStep 5: Add in garam masala, coriander powder, red chili powder, sugar, and cashew nuts.\n\nStep 6: Fry the new mixture of onion, tomato, and masala till it leaves the pan’s side and the masala has turned aromatic.\n\nStep 7: Remove the pan from the stove and allow it to cool completely.\n\nStep 8: Put the mixture in a blender and add 1 cup of water. Turn this into a smooth mixture and set aside.\n\nStep 9: In the pan, add 1½ butter and heat it.\n\nStep 10: Add 1-inch cinnamon, 2 green cardamoms, 2 to 3 cloves, and 1 small bay leaf. Fry it for 1 to 2 minutes."], ["video", "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/BRD7b6EraE4\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"], ["created_at", "2021-10-28 23:24:53.724908"], ["updated_at", "2021-10-28 23:24:53.724908"]]
+  ↳ db/seeds.rb:10
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:30
+  [1m[36mRecipe Create (0.2ms)[0m  [1m[32mINSERT INTO "recipes" ("title", "image", "prep_time", "cook_time", "course", "serves", "main_recipe", "video", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "Butter Chicken 🍗"], ["image", "https://vismaifood.com/storage/app/uploads/public/ad2/3c9/7ee/thumb__700_0_0_0_auto.jpg"], ["prep_time", 30], ["cook_time", 60], ["course", "mains"], ["serves", 2], ["main_recipe", "Step 1: Once it heats up, add 2 green cardamoms.\n\nStep 2: Next, add the cubed onions to the oil and stir it until it turns transparent or pink.\n\nStep 3: Add freshly chopped tomatoes and salt to taste. Fry for another 3 minutes.\n\nStep 4: Cook until the mixture of the onion and tomato is soft and mushy.\n\nStep 5: Add in garam masala, coriander powder, red chili powder, sugar, and cashew nuts.\n\nStep 6: Fry the new mixture of onion, tomato, and masala till it leaves the pan’s side and the masala has turned aromatic.\n\nStep 7: Remove the pan from the stove and allow it to cool completely.\n\nStep 8: Put the mixture in a blender and add 1 cup of water. Turn this into a smooth mixture and set aside.\n\nStep 9: In the pan, add 1½ butter and heat it.\n\nStep 10: Add 1-inch cinnamon, 2 green cardamoms, 2 to 3 cloves, and 1 small bay leaf. Fry it for 1 to 2 minutes."], ["video", "<iframe width=\"560\" height=\"315\" align=\"center\" src=\"https://www.youtube.com/embed/RKNogWbAivY\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"], ["created_at", "2021-10-28 23:24:53.726620"], ["updated_at", "2021-10-28 23:24:53.726620"]]
+  ↳ db/seeds.rb:30
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:30
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:50
+  [1m[36mRecipe Create (0.2ms)[0m  [1m[32mINSERT INTO "recipes" ("title", "image", "prep_time", "cook_time", "course", "serves", "main_recipe", "video", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "Lamb Biryani 🍚"], ["image", "https://nishkitchen.com/wp-content/uploads/2019/07/Lamb-Biryani-3B.jpg"], ["prep_time", 30], ["cook_time", 60], ["course", "mains"], ["serves", 2], ["main_recipe", "Step 1: Once it heats up, add 2 green cardamoms.\n\nStep 2: Next, add the cubed onions to the oil and stir it until it turns transparent or pink.\n\nStep 3: Add freshly chopped tomatoes and salt to taste. Fry for another 3 minutes.\n\nStep 4: Cook until the mixture of the onion and tomato is soft and mushy.\n\nStep 5: Add in garam masala, coriander powder, red chili powder, sugar, and cashew nuts.\n\nStep 6: Fry the new mixture of onion, tomato, and masala till it leaves the pan’s side and the masala has turned aromatic.\n\nStep 7: Remove the pan from the stove and allow it to cool completely.\n\nStep 8: Put the mixture in a blender and add 1 cup of water. Turn this into a smooth mixture and set aside.\n\nStep 9: In the pan, add 1½ butter and heat it.\n\nStep 10: Add 1-inch cinnamon, 2 green cardamoms, 2 to 3 cloves, and 1 small bay leaf. Fry it for 1 to 2 minutes."], ["video", "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/E49fvjd6vtg\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"], ["created_at", "2021-10-28 23:24:53.727483"], ["updated_at", "2021-10-28 23:24:53.727483"]]
+  ↳ db/seeds.rb:50
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:50
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:70
+  [1m[36mRecipe Create (0.3ms)[0m  [1m[32mINSERT INTO "recipes" ("title", "image", "prep_time", "cook_time", "course", "serves", "main_recipe", "video", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "Prawn curry 🍤"], ["image", "https://nishkitchen.com/wp-content/uploads/2021/07/Indian-Prawn-Curry-1B.jpg"], ["prep_time", 30], ["cook_time", 30], ["course", "mains"], ["serves", 2], ["main_recipe", "Step 1: Once it heats up, add 2 green cardamoms.\n\nStep 2: Next, add the cubed onions to the oil and stir it until it turns transparent or pink.\n\nStep 3: Add freshly chopped tomatoes and salt to taste. Fry for another 3 minutes.\n\nStep 4: Cook until the mixture of the onion and tomato is soft and mushy.\n\nStep 5: Add in garam masala, coriander powder, red chili powder, sugar, and cashew nuts.\n\nStep 6: Fry the new mixture of onion, tomato, and masala till it leaves the pan’s side and the masala has turned aromatic.\n\nStep 7: Remove the pan from the stove and allow it to cool completely.\n\nStep 8: Put the mixture in a blender and add 1 cup of water. Turn this into a smooth mixture and set aside.\n\nStep 9: In the pan, add 1½ butter and heat it.\n\nStep 10: Add 1-inch cinnamon, 2 green cardamoms, 2 to 3 cloves, and 1 small bay leaf. Fry it for 1 to 2 minutes."], ["video", "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/WqpISaltoM8\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"], ["created_at", "2021-10-28 23:24:53.728332"], ["updated_at", "2021-10-28 23:24:53.728332"]]
+  ↳ db/seeds.rb:70
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:70
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:90
+  [1m[36mRecipe Create (0.3ms)[0m  [1m[32mINSERT INTO "recipes" ("title", "image", "prep_time", "cook_time", "course", "serves", "main_recipe", "video", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "Samosa 🥟"], ["image", "https://www.simplyrecipes.com/thmb/a4Zce6LlijgO1PTgr4kKhjXIpiQ=/450x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2019__12__Vegetable-Samosas-LEAD-7-aaee0979a4884643bc14748a13d7015c.jpg"], ["prep_time", 30], ["cook_time", 60], ["course", "entree"], ["serves", 2], ["main_recipe", "Step 1: Once it heats up, add 2 green cardamoms.\n\nStep 2: Next, add the cubed onions to the oil and stir it until it turns transparent or pink.\n\nStep 3: Add freshly chopped tomatoes and salt to taste. Fry for another 3 minutes.\n\nStep 4: Cook until the mixture of the onion and tomato is soft and mushy.\n\nStep 5: Add in garam masala, coriander powder, red chili powder, sugar, and cashew nuts.\n\nStep 6: Fry the new mixture of onion, tomato, and masala till it leaves the pan’s side and the masala has turned aromatic.\n\nStep 7: Remove the pan from the stove and allow it to cool completely.\n\nStep 8: Put the mixture in a blender and add 1 cup of water. Turn this into a smooth mixture and set aside.\n\nStep 9: In the pan, add 1½ butter and heat it.\n\nStep 10: Add 1-inch cinnamon, 2 green cardamoms, 2 to 3 cloves, and 1 small bay leaf. Fry it for 1 to 2 minutes."], ["video", "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/_eEgrPnqTPQ\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"], ["created_at", "2021-10-28 23:24:53.729279"], ["updated_at", "2021-10-28 23:24:53.729279"]]
+  ↳ db/seeds.rb:90
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:90
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:111
+  [1m[36mRecipe Create (0.4ms)[0m  [1m[32mINSERT INTO "recipes" ("title", "image", "prep_time", "cook_time", "course", "serves", "main_recipe", "video", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "Pani Puri 🧆"], ["image", "https://www.easycookingwithmolly.com/wp-content/uploads/2014/10/stuffed-gol-gappa-chaat.jpg"], ["prep_time", 30], ["cook_time", 60], ["course", "entree"], ["serves", 2], ["main_recipe", "Step 1: Once it heats up, add 2 green cardamoms.\n\nStep 2: Next, add the cubed onions to the oil and stir it until it turns transparent or pink.\n\nStep 3: Add freshly chopped tomatoes and salt to taste. Fry for another 3 minutes.\n\nStep 4: Cook until the mixture of the onion and tomato is soft and mushy.\n\nStep 5: Add in garam masala, coriander powder, red chili powder, sugar, and cashew nuts.\n\nStep 6: Fry the new mixture of onion, tomato, and masala till it leaves the pan’s side and the masala has turned aromatic.\n\nStep 7: Remove the pan from the stove and allow it to cool completely.\n\nStep 8: Put the mixture in a blender and add 1 cup of water. Turn this into a smooth mixture and set aside.\n\nStep 9: In the pan, add 1½ butter and heat it.\n\nStep 10: Add 1-inch cinnamon, 2 green cardamoms, 2 to 3 cloves, and 1 small bay leaf. Fry it for 1 to 2 minutes."], ["video", "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/Gjhn2cqyeG4\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"], ["created_at", "2021-10-28 23:24:53.730269"], ["updated_at", "2021-10-28 23:24:53.730269"]]
+  ↳ db/seeds.rb:111
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:111
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:131
+  [1m[36mRecipe Create (0.2ms)[0m  [1m[32mINSERT INTO "recipes" ("title", "image", "prep_time", "cook_time", "course", "serves", "main_recipe", "video", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "Chicken Tikka 🍗"], ["image", "https://headbangerskitchen.com/wp-content/uploads/2021/01/lowfatCHICKENTIKKA-Vertic.jpg"], ["prep_time", 30], ["cook_time", 60], ["course", "entree"], ["serves", 2], ["main_recipe", "Step 1: Once it heats up, add 2 green cardamoms.\n\nStep 2: Next, add the cubed onions to the oil and stir it until it turns transparent or pink.\n\nStep 3: Add freshly chopped tomatoes and salt to taste. Fry for another 3 minutes.\n\nStep 4: Cook until the mixture of the onion and tomato is soft and mushy.\n\nStep 5: Add in garam masala, coriander powder, red chili powder, sugar, and cashew nuts.\n\nStep 6: Fry the new mixture of onion, tomato, and masala till it leaves the pan’s side and the masala has turned aromatic.\n\nStep 7: Remove the pan from the stove and allow it to cool completely.\n\nStep 8: Put the mixture in a blender and add 1 cup of water. Turn this into a smooth mixture and set aside.\n\nStep 9: In the pan, add 1½ butter and heat it.\n\nStep 10: Add 1-inch cinnamon, 2 green cardamoms, 2 to 3 cloves, and 1 small bay leaf. Fry it for 1 to 2 minutes."], ["video", "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/h4IwrvuN9cQ\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"], ["created_at", "2021-10-28 23:24:53.731225"], ["updated_at", "2021-10-28 23:24:53.731225"]]
+  ↳ db/seeds.rb:131
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:131
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:151
+  [1m[36mRecipe Create (0.2ms)[0m  [1m[32mINSERT INTO "recipes" ("title", "image", "prep_time", "cook_time", "course", "serves", "main_recipe", "video", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "Lamb Rogan Josh 🥘"], ["image", "https://whonomstheworld.com/wp-content/uploads/2020/08/kashmiri-lamb-rogan-josh.jpeg"], ["prep_time", 30], ["cook_time", 60], ["course", "mains"], ["serves", 2], ["main_recipe", "Step 1: Once it heats up, add 2 green cardamoms.\n\nStep 2: Next, add the cubed onions to the oil and stir it until it turns transparent or pink.\n\nStep 3: Add freshly chopped tomatoes and salt to taste. Fry for another 3 minutes.\n\nStep 4: Cook until the mixture of the onion and tomato is soft and mushy.\n\nStep 5: Add in garam masala, coriander powder, red chili powder, sugar, and cashew nuts.\n\nStep 6: Fry the new mixture of onion, tomato, and masala till it leaves the pan’s side and the masala has turned aromatic.\n\nStep 7: Remove the pan from the stove and allow it to cool completely.\n\nStep 8: Put the mixture in a blender and add 1 cup of water. Turn this into a smooth mixture and set aside.\n\nStep 9: In the pan, add 1½ butter and heat it.\n\nStep 10: Add 1-inch cinnamon, 2 green cardamoms, 2 to 3 cloves, and 1 small bay leaf. Fry it for 1 to 2 minutes."], ["video", "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/xTWAtrV4R9E\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"], ["created_at", "2021-10-28 23:24:53.732067"], ["updated_at", "2021-10-28 23:24:53.732067"]]
+  ↳ db/seeds.rb:151
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:151
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:171
+  [1m[36mRecipe Create (0.3ms)[0m  [1m[32mINSERT INTO "recipes" ("title", "image", "prep_time", "cook_time", "course", "serves", "main_recipe", "video", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "Garlic Naan \u{1FAD3}"], ["image", "https://i.pinimg.com/originals/85/e6/6d/85e66d5c99bc60f0fe2f91d8642d6f17.jpg"], ["prep_time", 30], ["cook_time", 60], ["course", "mains"], ["serves", 2], ["main_recipe", "Step 1: Once it heats up, add 2 green cardamoms.\n\nStep 2: Next, add the cubed onions to the oil and stir it until it turns transparent or pink.\n\nStep 3: Add freshly chopped tomatoes and salt to taste. Fry for another 3 minutes.\n\nStep 4: Cook until the mixture of the onion and tomato is soft and mushy.\n\nStep 5: Add in garam masala, coriander powder, red chili powder, sugar, and cashew nuts.\n\nStep 6: Fry the new mixture of onion, tomato, and masala till it leaves the pan’s side and the masala has turned aromatic.\n\nStep 7: Remove the pan from the stove and allow it to cool completely.\n\nStep 8: Put the mixture in a blender and add 1 cup of water. Turn this into a smooth mixture and set aside.\n\nStep 9: In the pan, add 1½ butter and heat it.\n\nStep 10: Add 1-inch cinnamon, 2 green cardamoms, 2 to 3 cloves, and 1 small bay leaf. Fry it for 1 to 2 minutes."], ["video", "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/TQv8-iBUars\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"], ["created_at", "2021-10-28 23:24:53.732908"], ["updated_at", "2021-10-28 23:24:53.732908"]]
+  ↳ db/seeds.rb:171
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:171
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:191
+  [1m[36mRecipe Create (0.3ms)[0m  [1m[32mINSERT INTO "recipes" ("title", "image", "prep_time", "cook_time", "course", "serves", "main_recipe", "video", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "Vada Pav 🍔"], ["image", "https://www.cookwithmanali.com/wp-content/uploads/2018/04/Vada-Pav-Recipe.jpg"], ["prep_time", 30], ["cook_time", 60], ["course", "entree"], ["serves", 2], ["main_recipe", "recipe coming soon"], ["video", "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/r4saZD0J_gU\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"], ["created_at", "2021-10-28 23:24:53.733796"], ["updated_at", "2021-10-28 23:24:53.733796"]]
+  ↳ db/seeds.rb:191
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:191
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:194
+  [1m[36mRecipe Create (0.2ms)[0m  [1m[32mINSERT INTO "recipes" ("title", "image", "prep_time", "cook_time", "course", "serves", "main_recipe", "video", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "Paneer Butter Masala 🥘"], ["image", "https://chefchoice.com.np/wp-content/uploads/2020/10/paneer-butter-masala-paneer-makhani-500x500-1.jpg"], ["prep_time", 30], ["cook_time", 60], ["course", "mains"], ["serves", 2], ["main_recipe", "recipe coming soon"], ["video", "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/nbGVg2j0xc4\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"], ["created_at", "2021-10-28 23:24:53.734669"], ["updated_at", "2021-10-28 23:24:53.734669"]]
+  ↳ db/seeds.rb:194
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:194
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:196
+  [1m[36mRecipe Create (0.2ms)[0m  [1m[32mINSERT INTO "recipes" ("title", "image", "prep_time", "cook_time", "course", "serves", "main_recipe", "video", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "Chicken Tikka Masala"], ["image", "https://sizzlingpots.com/wp-content/uploads/2020/08/Chicken-Tikka-Masala-scaled.jpg"], ["prep_time", 30], ["cook_time", 60], ["course", "mains"], ["serves", 2], ["main_recipe", "recipe coming soon"], ["video", "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/wlDXkXsnDYU\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"], ["created_at", "2021-10-28 23:24:53.735454"], ["updated_at", "2021-10-28 23:24:53.735454"]]
+  ↳ db/seeds.rb:196
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:196
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  ↳ db/seeds.rb:200
+  [1m[36mMyfood Load (0.6ms)[0m  [1m[34mSELECT "myfoods".* FROM "myfoods"[0m
+  ↳ db/seeds.rb:203
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:203
+  [1m[36mMyfood::HABTM_Recipes Destroy (0.2ms)[0m  [1m[31mDELETE FROM "myfoods_recipes" WHERE "myfoods_recipes"."myfood_id" = $1[0m  [["myfood_id", 71]]
+  ↳ db/seeds.rb:203
+  [1m[36mMyfood Destroy (0.1ms)[0m  [1m[31mDELETE FROM "myfoods" WHERE "myfoods"."id" = $1[0m  [["id", 71]]
+  ↳ db/seeds.rb:203
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:203
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:203
+  [1m[36mMyfood::HABTM_Recipes Destroy (0.1ms)[0m  [1m[31mDELETE FROM "myfoods_recipes" WHERE "myfoods_recipes"."myfood_id" = $1[0m  [["myfood_id", 72]]
+  ↳ db/seeds.rb:203
+  [1m[36mMyfood Destroy (0.1ms)[0m  [1m[31mDELETE FROM "myfoods" WHERE "myfoods"."id" = $1[0m  [["id", 72]]
+  ↳ db/seeds.rb:203
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:203
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:203
+  [1m[36mMyfood::HABTM_Recipes Destroy (0.1ms)[0m  [1m[31mDELETE FROM "myfoods_recipes" WHERE "myfoods_recipes"."myfood_id" = $1[0m  [["myfood_id", 73]]
+  ↳ db/seeds.rb:203
+  [1m[36mMyfood Destroy (0.1ms)[0m  [1m[31mDELETE FROM "myfoods" WHERE "myfoods"."id" = $1[0m  [["id", 73]]
+  ↳ db/seeds.rb:203
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:203
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:203
+  [1m[36mMyfood::HABTM_Recipes Destroy (0.1ms)[0m  [1m[31mDELETE FROM "myfoods_recipes" WHERE "myfoods_recipes"."myfood_id" = $1[0m  [["myfood_id", 74]]
+  ↳ db/seeds.rb:203
+  [1m[36mMyfood Destroy (0.1ms)[0m  [1m[31mDELETE FROM "myfoods" WHERE "myfoods"."id" = $1[0m  [["id", 74]]
+  ↳ db/seeds.rb:203
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:203
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:204
+  [1m[36mMyfood Create (0.2ms)[0m  [1m[32mINSERT INTO "myfoods" ("title", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["title", "Street Food"], ["created_at", "2021-10-28 23:24:53.746684"], ["updated_at", "2021-10-28 23:24:53.746684"]]
+  ↳ db/seeds.rb:204
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:204
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:205
+  [1m[36mMyfood Create (0.1ms)[0m  [1m[32mINSERT INTO "myfoods" ("title", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["title", "Veg Treat"], ["created_at", "2021-10-28 23:24:53.747472"], ["updated_at", "2021-10-28 23:24:53.747472"]]
+  ↳ db/seeds.rb:205
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:205
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:206
+  [1m[36mMyfood Create (0.1ms)[0m  [1m[32mINSERT INTO "myfoods" ("title", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["title", "Non-Veg Masala"], ["created_at", "2021-10-28 23:24:53.748008"], ["updated_at", "2021-10-28 23:24:53.748008"]]
+  ↳ db/seeds.rb:206
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:206
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "myfoods"[0m
+  ↳ db/seeds.rb:207
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:212
+  [1m[36mMyfood::HABTM_Recipes Create (0.2ms)[0m  [1m[32mINSERT INTO "myfoods_recipes" ("myfood_id", "recipe_id") VALUES ($1, $2) RETURNING "id"[0m  [["myfood_id", 75], ["recipe_id", 143]]
+  ↳ db/seeds.rb:212
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:212
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:213
+  [1m[36mMyfood::HABTM_Recipes Create (0.1ms)[0m  [1m[32mINSERT INTO "myfoods_recipes" ("myfood_id", "recipe_id") VALUES ($1, $2) RETURNING "id"[0m  [["myfood_id", 76], ["recipe_id", 143]]
+  ↳ db/seeds.rb:213
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:213
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:213
+  [1m[36mMyfood::HABTM_Recipes Create (0.1ms)[0m  [1m[32mINSERT INTO "myfoods_recipes" ("myfood_id", "recipe_id") VALUES ($1, $2) RETURNING "id"[0m  [["myfood_id", 76], ["recipe_id", 144]]
+  ↳ db/seeds.rb:213
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:213
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:214
+  [1m[36mMyfood::HABTM_Recipes Create (0.1ms)[0m  [1m[32mINSERT INTO "myfoods_recipes" ("myfood_id", "recipe_id") VALUES ($1, $2) RETURNING "id"[0m  [["myfood_id", 77], ["recipe_id", 144]]
+  ↳ db/seeds.rb:214
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:214
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:214
+  [1m[36mMyfood::HABTM_Recipes Create (0.1ms)[0m  [1m[32mINSERT INTO "myfoods_recipes" ("myfood_id", "recipe_id") VALUES ($1, $2) RETURNING "id"[0m  [["myfood_id", 77], ["recipe_id", 145]]
+  ↳ db/seeds.rb:214
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:214
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:217
+  [1m[36mMyfood Update (0.2ms)[0m  [1m[33mUPDATE "myfoods" SET "user_id" = $1, "updated_at" = $2 WHERE "myfoods"."id" = $3[0m  [["user_id", 59], ["updated_at", "2021-10-28 23:24:53.757225"], ["id", 75]]
+  ↳ db/seeds.rb:217
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:217
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:217
+  [1m[36mMyfood Update (0.1ms)[0m  [1m[33mUPDATE "myfoods" SET "user_id" = $1, "updated_at" = $2 WHERE "myfoods"."id" = $3[0m  [["user_id", 59], ["updated_at", "2021-10-28 23:24:53.758037"], ["id", 76]]
+  ↳ db/seeds.rb:217
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:217
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:218
+  [1m[36mMyfood Update (0.1ms)[0m  [1m[33mUPDATE "myfoods" SET "user_id" = $1, "updated_at" = $2 WHERE "myfoods"."id" = $3[0m  [["user_id", 60], ["updated_at", "2021-10-28 23:24:53.758746"], ["id", 76]]
+  ↳ db/seeds.rb:218
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:218
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:218
+  [1m[36mMyfood Update (0.1ms)[0m  [1m[33mUPDATE "myfoods" SET "user_id" = $1, "updated_at" = $2 WHERE "myfoods"."id" = $3[0m  [["user_id", 60], ["updated_at", "2021-10-28 23:24:53.759349"], ["id", 77]]
+  ↳ db/seeds.rb:218
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:218
