@@ -1,7 +1,14 @@
 <h1>All users</h1>
 
-<h2> We have <%= User.count %> current users. </h2>
 
+<div class="users"
+
+<h3> We have <%= User.count %> current users. </h3>
+
+
+<h4>
 <% @users.each do |user| %>
 <p> <%= user.email %> </p>
 <% end %>
+</h4>
+</div>

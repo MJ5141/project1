@@ -14,4 +14,6 @@ Rails.application.routes.draw do
 
   resources :myfoods
   delete '/myfoods/:myfood_id/recipes/:recipe_id' => 'myfoods#remove_recipe', :as => 'remove_recipe'
+
+  
 end

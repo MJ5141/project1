@@ -1,5 +1,8 @@
 <h1> <%= @recipe.title %></h1>
 
+<div class="container">
+<div class="row">
+
 <%= image_tag @recipe.image, :class => 'feature' if @recipe.image.present? %>
 
 <div class="info">
@@ -9,6 +12,8 @@
   <h4>Serves 👨‍👩‍👦 : <%= @recipe.serves %> persons</h4>
   </div>
 
+</div>
+</div>
 <h3>Main Recipe 🍳 </h3>
   <div class="recipe">
    <%= @recipe.main_recipe %>
@@ -34,6 +39,6 @@
   <% if @current_user.present? %>
   <% if @current_user.admin? %>
 <h5> <%= link_to ('Edit Recipe'), edit_recipe_path(@recipe.id), :class=> "btn btn-success" %>
- <%= link_to ('Delete Recipe'), recipe_path(@recipe), :method => 'delete', :class => "btn btn-outline-danger" %> </h5>
+ <%= link_to 'Delete Recipe', recipe_path(@recipe), :method => 'delete', :class => "btn btn-outline-danger" %> </h5>
   <% end %>
   <% end %>

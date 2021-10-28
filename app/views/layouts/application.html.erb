@@ -15,7 +15,7 @@
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
 
-      <%= link_to 'My Food Lab',  recipes_path, :class => "navbar-brand" %>
+      <%= link_to '🍴 My Food Lab 🍳',  recipes_path, :class => "navbar-brand" %>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -23,39 +23,39 @@
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
             <% if @current_user.present? %>
-            <%= link_to 'New Recipe',  new_recipe_path, :class => "nav-link" %>
+            <%= link_to 'New Recipe 🍳',  new_recipe_path, :class => "nav-link" %>
             <% end %>
           </li>
 
           <li class="nav-item active">
             <% if @current_user.present? %>
             <% if @current_user.admin? %>
-            <%= link_to 'All users', users_path, :class => "nav-link" %>
+            <%= link_to 'All users 👤', users_path, :class => "nav-link" %>
             <% end %>
           </li>
 
           <li class="nav-item active">
-            <%= link_to 'Create Myfood List', new_myfood_path, :class => "nav-link" %>
+            <%= link_to 'Create Myfood List 📝', new_myfood_path, :class => "nav-link" %>
           </li>
 
           <li class="nav-item active">
-            <%= link_to ' Myfood Lists', myfoods_path, :class => "nav-link" %>
+            <%= link_to ' Myfood Lists 📝', myfoods_path, :class => "nav-link" %>
           </li>
 
 
           <li class="nav-item active">
-            <%= link_to "Log out #{@current_user.email}",  login_path, :class => "nav-link", :method => 'delete' %>
+            <%= link_to "Log out #{@current_user.email} 👤",  login_path, :class => "nav-link", :method => 'delete' %>
             <% else %>
-            <%= link_to 'Sign up',  new_user_path, :class => "nav-link" %>
+            <%= link_to 'Sign up 👤',  new_user_path, :class => "nav-link" %>
           </li>
 
           <li class="nav-item active">
-            <%= link_to 'Sign in',  login_path, :class => "nav-link" %>
+            <%= link_to 'Sign in 👤',  login_path, :class => "nav-link" %>
             <% end %>
           </li>
         </ul>
         <form class="form-inline my-2 my-lg-0" action="/search">
-          <input class="form-control mr-sm-2" name="q" type="search" placeholder="Search" aria-label="Search">
+          <input class="form-control mr-sm-2" name="q" type="search" placeholder="🔍" aria-label="Search">
           <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
         </form>
       </div>

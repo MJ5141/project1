@@ -7,9 +7,45 @@ puts "#{User.count} users."
 
 Recipe.destroy_all
 
-r1 = Recipe.create :title => 'Pav Bhaji 🥘',  :image => 'https://www.newsdrives.com/wp-content/uploads/2020/11/pav_bhaji_blog.jpg', :prep_time => 30, :cook_time => 60, :course => 'entree', :serves => 2, :main_recipe => 'recipe coming soon', :video => '<iframe width="560" height="315" src="https://www.youtube.com/embed/BRD7b6EraE4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+r1 = Recipe.create :title => 'Pav Bhaji 🥘',  :image => 'https://www.newsdrives.com/wp-content/uploads/2020/11/pav_bhaji_blog.jpg', :prep_time => 30, :cook_time => 60, :course => 'entree', :serves => 2, :main_recipe => 'Step 1: Once it heats up, add 2 green cardamoms.
 
-r2 = Recipe.create :title => 'Butter Chicken 🍗', :image => 'https://vismaifood.com/storage/app/uploads/public/ad2/3c9/7ee/thumb__700_0_0_0_auto.jpg', :prep_time => 30, :cook_time => 60, :course => 'mains', :serves => 2, :main_recipe => 'recipe coming soon', :video => '<iframe width="560" height="315" align="center" src="https://www.youtube.com/embed/RKNogWbAivY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+Step 2: Next, add the cubed onions to the oil and stir it until it turns transparent or pink.
+
+Step 3: Add freshly chopped tomatoes and salt to taste. Fry for another 3 minutes.
+
+Step 4: Cook until the mixture of the onion and tomato is soft and mushy.
+
+Step 5: Add in garam masala, coriander powder, red chili powder, sugar, and cashew nuts.
+
+Step 6: Fry the new mixture of onion, tomato, and masala till it leaves the pan’s side and the masala has turned aromatic.
+
+Step 7: Remove the pan from the stove and allow it to cool completely.
+
+Step 8: Put the mixture in a blender and add 1 cup of water. Turn this into a smooth mixture and set aside.
+
+Step 9: In the pan, add 1½ butter and heat it.
+
+Step 10: Add 1-inch cinnamon, 2 green cardamoms, 2 to 3 cloves, and 1 small bay leaf. Fry it for 1 to 2 minutes.', :video => '<iframe width="560" height="315" src="https://www.youtube.com/embed/BRD7b6EraE4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+
+r2 = Recipe.create :title => 'Butter Chicken 🍗', :image => 'https://vismaifood.com/storage/app/uploads/public/ad2/3c9/7ee/thumb__700_0_0_0_auto.jpg', :prep_time => 30, :cook_time => 60, :course => 'mains', :serves => 2, :main_recipe => 'Step 1: Once it heats up, add 2 green cardamoms.
+
+Step 2: Next, add the cubed onions to the oil and stir it until it turns transparent or pink.
+
+Step 3: Add freshly chopped tomatoes and salt to taste. Fry for another 3 minutes.
+
+Step 4: Cook until the mixture of the onion and tomato is soft and mushy.
+
+Step 5: Add in garam masala, coriander powder, red chili powder, sugar, and cashew nuts.
+
+Step 6: Fry the new mixture of onion, tomato, and masala till it leaves the pan’s side and the masala has turned aromatic.
+
+Step 7: Remove the pan from the stove and allow it to cool completely.
+
+Step 8: Put the mixture in a blender and add 1 cup of water. Turn this into a smooth mixture and set aside.
+
+Step 9: In the pan, add 1½ butter and heat it.
+
+Step 10: Add 1-inch cinnamon, 2 green cardamoms, 2 to 3 cloves, and 1 small bay leaf. Fry it for 1 to 2 minutes.', :video => '<iframe width="560" height="315" align="center" src="https://www.youtube.com/embed/RKNogWbAivY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
 
 r3 = Recipe.create :title => 'Lamb Biryani 🍚', :image => 'https://nishkitchen.com/wp-content/uploads/2019/07/Lamb-Biryani-3B.jpg', :prep_time => 30, :cook_time => 60, :course => 'mains', :serves => 2, :main_recipe => 'recipe coming soon', :video => '<iframe width="560" height="315" src="https://www.youtube.com/embed/E49fvjd6vtg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
 

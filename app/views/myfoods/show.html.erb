@@ -1,4 +1,4 @@
-<h1> <%= @myfood.title %></h1>
+<h1> <%= @myfood.title %> 🍳</h1>
 
 <% if flash[:alert].present? %>
  <%= flash[:alert]%>
@@ -9,7 +9,7 @@
   <li>
 <%= link_to recipe.title, recipe_path(recipe) %>
 <% if @current_user.present? %>
-<%= link_to 'Remove recipe', remove_recipe_path(@myfood.id, recipe.id), :method => 'delete' %>
+<%= link_to '❌', remove_recipe_path(@myfood.id, recipe.id), :method => 'delete' %>
  <% end %>
 </li>
 </ul>
